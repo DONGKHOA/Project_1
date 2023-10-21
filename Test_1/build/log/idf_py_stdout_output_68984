@@ -1,0 +1,1042 @@
+ets Jun  8 2016 00:22:57
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7084
+ho 0 tail 12 room 4
+load:0x40078000,len:15584
+load:0x40080400,len:4
+load:0x40080404,len:3876
+entry 0x4008064c
+[0;32mI (31) boot: ESP-IDF v5.1.1-dirty 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Oct 13 2023 20:04:41[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v1.0[0m
+[0;32mI (39) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (69) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (77) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (84) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (92) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=252e4h (152292) map[0m
+[0;32mI (160) esp_image: segment 1: paddr=0003530c vaddr=3ffb0000 size=037b0h ( 14256) load[0m
+[0;32mI (165) esp_image: segment 2: paddr=00038ac4 vaddr=40080000 size=07554h ( 30036) load[0m
+[0;32mI (178) esp_image: segment 3: paddr=00040020 vaddr=400d0020 size=972f0h (619248) map[0m
+[0;32mI (402) esp_image: segment 4: paddr=000d7318 vaddr=40087554 size=0e18ch ( 57740) load[0m
+[0;32mI (437) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (437) boot: Disabling RNG early entropy source...[0m
+[0;32mI (449) cpu_start: Multicore app[0m
+[0;32mI (449) cpu_start: Pro cpu up.[0m
+[0;32mI (449) cpu_start: Starting app cpu, entry point is 0x4008137c[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (467) cpu_start: Pro cpu start user code[0m
+[0;32mI (467) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (467) cpu_start: Application information:[0m
+[0;32mI (472) cpu_start: Project name:     Test_1[0m
+[0;32mI (476) cpu_start: App version:      1[0m
+[0;32mI (481) cpu_start: Compile time:     Oct 13 2023 20:04:31[0m
+[0;32mI (487) cpu_start: ELF file SHA256:  6b68e31fe3452fee...[0m
+[0;32mI (493) cpu_start: ESP-IDF:          v5.1.1-dirty[0m
+[0;32mI (498) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (503) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (508) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (513) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (520) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (526) heap_init: At 3FFB7E88 len 00028178 (160 KiB): DRAM[0m
+[0;32mI (532) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (538) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (545) heap_init: At 400956E0 len 0000A920 (42 KiB): IRAM[0m
+[0;32mI (553) spi_flash: detected chip: generic[0m
+[0;32mI (556) spi_flash: flash io: dio[0m
+[0;32mI (561) app_start: Starting scheduler on CPU0[0m
+[0;32mI (565) app_start: Starting scheduler on CPU1[0m
+[0;32mI (565) main_task: Started on CPU0[0m
+[0;32mI (575) main_task: Calling app_main()[0m
+I (615) wifi:wifi driver task: 3ffbff04, prio:23, stack:6656, core=0
+I (625) wifi:wifi firmware version: ce9244d
+I (635) wifi:wifi certification version: v7.0
+I (635) wifi:config NVS flash: enabled
+I (635) wifi:config nano formating: disabled
+I (635) wifi:Init data frame dynamic rx buffer num: 32
+I (635) wifi:Init management frame dynamic rx buffer num: 32
+I (645) wifi:Init management short buffer num: 32
+I (645) wifi:Init dynamic tx buffer num: 32
+I (655) wifi:Init static rx buffer size: 1600
+I (655) wifi:Init static rx buffer num: 10
+I (665) wifi:Init dynamic rx buffer num: 32
+[0;32mI (665) wifi_init: rx ba win: 6[0m
+[0;32mI (665) wifi_init: tcpip mbox: 32[0m
+[0;32mI (675) wifi_init: udp mbox: 6[0m
+[0;32mI (675) wifi_init: tcp mbox: 6[0m
+[0;32mI (685) wifi_init: tcp tx win: 5744[0m
+[0;32mI (685) wifi_init: tcp rx win: 5744[0m
+[0;32mI (685) wifi_init: tcp mss: 1440[0m
+[0;32mI (695) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (695) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (705) phy_init: phy_version 4670,719f9f6,Feb 18 2021,17:07:07[0m
+I (815) wifi:mode : sta (0c:dc:7e:63:2e:14)
+I (815) wifi:enable tsf
+[0;32mI (825) wifi station: Wifi_init_station finished.[0m
+I (835) wifi:new:<6,0>, old:<1,0>, ap:<255,255>, sta:<6,0>, prof:1
+I (835) wifi:state: init -> auth (b0)
+I (1895) wifi:state: auth -> assoc (0)
+I (1925) wifi:Association refused temporarily, comeback time 196 (TUs)
+I (2125) wifi:state: assoc -> assoc (0)
+I (2125) wifi:Association refused temporarily, comeback time 196 (TUs)
+I (2325) wifi:state: assoc -> assoc (0)
+I (2345) wifi:Association refused temporarily, comeback time 196 (TUs)
+I (2545) wifi:state: assoc -> assoc (0)
+I (2595) wifi:Association refused temporarily, comeback time 196 (TUs)
+I (2805) wifi:state: assoc -> assoc (0)
+I (2815) wifi:state: assoc -> run (10)
+I (12815) wifi:state: run -> init (cc00)
+I (12815) wifi:new:<6,0>, old:<6,0>, ap:<255,255>, sta:<6,0>, prof:1
+[0;32mI (12815) wifi station: retry to connect to the AP[0m
+[0;31mE (12815) wifi station: connect to the AP fail[0m
+[0;32mI (15235) wifi station: retry to connect to the AP[0m
+[0;31mE (15235) wifi station: connect to the AP fail[0m
+I (15245) wifi:new:<6,0>, old:<6,0>, ap:<255,255>, sta:<6,0>, prof:1
+I (15245) wifi:state: init -> auth (b0)
+I (16305) wifi:state: auth -> assoc (0)
+I (16315) wifi:state: assoc -> run (10)
+I (16435) wifi:connected with Khoa, aid = 2, channel 6, BW20, bssid = 4e:50:34:54:c8:93
+I (16435) wifi:security: WPA3-SAE, phy: bgn, rssi: -24
+I (16445) wifi:pm start, type: 1
+
+I (16465) wifi:<ba-add>idx:0 (ifx:0, 4e:50:34:54:c8:93), tid:0, ssn:2, winSize:64
+I (16475) wifi:AP's beacon interval = 102400 us, DTIM period = 1
+[0;32mI (17445) esp_netif_handlers: sta ip: 172.20.10.3, mask: 255.255.255.240, gw: 172.20.10.1[0m
+[0;32mI (17445) wifi station: got ip:172.20.10.3[0m
+[0;32mI (17445) wifi station: Connected to ap SSID:Khoa password:17042021[0m
+[0;32mI (17455) MQTT: Other event id:7[0m
+[0;31mE (17485) DHT11: Data from DHT11 is invalid![0m
+[0;32mI (17485) main_task: Returned from app_main()[0m
+[0;31mE (27475) esp-tls: [sock=54] select() timeout[0m
+[0;31mE (27475) transport_base: Failed to open a new connection: 32774[0m
+[0;31mE (27475) mqtt_client: Error transport connect[0m
+[0;32mI (27475) MQTT: Other event id:0[0m
+[0;32mI (27485) MQTT: Other event id:2[0m
+[0;33mW (27485) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (27495) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;32mI (29515) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;33mW (29515) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (29515) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;32mI (31545) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;33mW (31545) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (31545) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;31mE (33575) DHT11: Failed to read data from DHT11![0m
+[0;33mW (33575) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (33575) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;31mE (35605) DHT11: Failed to read data from DHT11![0m
+[0;33mW (35605) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (35605) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;32mI (37495) MQTT: Other event id:7[0m
+[0;32mI (37635) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (37885) MQTT: MQTT_EVENT_CONNECTED[0m
+[0;32mI (39915) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (41945) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (43975) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (46005) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (48035) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;31mE (50055) DHT11: No responses from DHT11![0m
+[0;32mI (52085) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (54105) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (56135) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (58165) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (60195) DHT11: Temperature: 27.059999 Humidity: 67.000000[0m
+[0;32mI (62225) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (64255) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (66275) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (68305) DHT11: Temperature: 27.059999 Humidity: 67.000000[0m
+[0;32mI (70335) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (72365) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (74395) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (76425) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (78455) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (80485) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (82515) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (84535) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (86555) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (88585) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;31mE (90615) DHT11: Failed to read data from DHT11![0m
+[0;32mI (92645) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (94665) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (96695) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (98725) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (100755) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (102785) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;31mE (103435) transport_base: tcp_read error, errno=Socket is not connected[0m
+[0;31mE (103435) mqtt_client: esp_mqtt_handle_transport_read_error: transport_read() error: errno=128[0m
+[0;32mI (103445) MQTT: Other event id:0[0m
+[0;31mE (103445) mqtt_client: mqtt_process_receive: mqtt_message_receive() returned -1[0m
+[0;32mI (103455) MQTT: Other event id:2[0m
+[0;32mI (104815) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;33mW (104815) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (104815) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;32mI (106845) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;33mW (106845) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (106845) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;32mI (108875) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;33mW (108875) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (108875) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;32mI (110905) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;33mW (110905) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (110905) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;31mE (112935) DHT11: Failed to read data from DHT11![0m
+[0;33mW (112935) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (112935) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;32mI (114965) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;33mW (114965) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (114965) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;32mI (116995) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;33mW (116995) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (116995) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;32mI (118455) MQTT: Other event id:7[0m
+[0;32mI (119025) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (119085) MQTT: MQTT_EVENT_CONNECTED[0m
+[0;32mI (121115) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (123145) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (125175) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;31mE (127205) DHT11: Failed to read data from DHT11![0m
+[0;31mE (129215) DHT11: No responses from DHT11![0m
+[0;32mI (131245) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (133265) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (135295) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (137325) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;31mE (139355) DHT11: Failed to read data from DHT11![0m
+[0;32mI (141375) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (143405) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (145435) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;31mE (147455) DHT11: Failed to read data from DHT11![0m
+[0;32mI (149475) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (151495) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (153515) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;31mE (155535) DHT11: Failed to read data from DHT11![0m
+[0;32mI (157565) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (159595) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (161625) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (163645) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (165675) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (167695) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;31mE (169265) transport_base: tcp_read error, errno=Socket is not connected[0m
+[0;31mE (169265) mqtt_client: esp_mqtt_handle_transport_read_error: transport_read() error: errno=128[0m
+[0;32mI (169275) MQTT: Other event id:0[0m
+[0;31mE (169275) mqtt_client: mqtt_process_receive: mqtt_message_receive() returned -1[0m
+[0;32mI (169285) MQTT: Other event id:2[0m
+[0;32mI (169725) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;33mW (169725) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (169725) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;32mI (171755) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;33mW (171755) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (171755) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;32mI (173785) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;33mW (173785) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (173785) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;31mE (175815) DHT11: Failed to read data from DHT11![0m
+[0;33mW (175815) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (175815) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;32mI (177845) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;33mW (177845) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (177845) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;32mI (179875) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;33mW (179875) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (179875) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;32mI (181905) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;33mW (181905) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (181905) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;32mI (183935) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;33mW (183935) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (183935) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;32mI (184285) MQTT: Other event id:7[0m
+[0;32mI (184415) MQTT: MQTT_EVENT_CONNECTED[0m
+[0;32mI (185965) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;31mE (187995) DHT11: Failed to read data from DHT11![0m
+[0;32mI (190015) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (192045) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (194075) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (196105) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (198135) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (200165) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (202195) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (204225) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (206245) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;31mE (208275) DHT11: Failed to read data from DHT11![0m
+[0;32mI (210295) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (212325) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (214345) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (216375) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (218405) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (220435) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (222455) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (224485) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (226515) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;31mE (228545) DHT11: Failed to read data from DHT11![0m
+[0;32mI (230575) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;31mE (232605) DHT11: Failed to read data from DHT11![0m
+[0;32mI (234625) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (236655) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (238685) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (240715) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (242745) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (244775) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (246805) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (248835) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (250855) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (252885) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (254915) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (256935) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;31mE (258965) DHT11: Failed to read data from DHT11![0m
+[0;32mI (260995) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (263025) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (265045) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (267075) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (269105) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (271125) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (273145) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (275175) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (277205) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (279235) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (281255) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (283275) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (285305) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (287335) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (289365) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (291395) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (293425) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (295445) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (297465) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (299485) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (301515) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (303545) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (305575) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (307595) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (309625) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (311655) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (313685) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (315705) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;31mE (317735) DHT11: Failed to read data from DHT11![0m
+[0;32mI (319765) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (321795) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (323825) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (325855) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (327885) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (329905) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;31mE (330335) transport_base: tcp_read error, errno=Socket is not connected[0m
+[0;31mE (330335) mqtt_client: esp_mqtt_handle_transport_read_error: transport_read() error: errno=128[0m
+[0;32mI (330345) MQTT: Other event id:0[0m
+[0;31mE (330345) mqtt_client: mqtt_process_receive: mqtt_message_receive() returned -1[0m
+[0;32mI (330355) MQTT: Other event id:2[0m
+[0;32mI (331935) DHT11: Temperature: 27.059999 Humidity: 63.000000[0m
+[0;33mW (331935) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (331935) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;32mI (333965) DHT11: Temperature: 27.059999 Humidity: 63.000000[0m
+[0;33mW (333965) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (333965) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;32mI (335995) DHT11: Temperature: 27.059999 Humidity: 63.000000[0m
+[0;33mW (335995) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (335995) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;32mI (338025) DHT11: Temperature: 27.059999 Humidity: 63.000000[0m
+[0;33mW (338025) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (338025) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;32mI (340055) DHT11: Temperature: 27.059999 Humidity: 63.000000[0m
+[0;33mW (340055) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (340055) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;32mI (340365) MQTT: Other event id:7[0m
+[0;32mI (341195) MQTT: MQTT_EVENT_CONNECTED[0m
+[0;32mI (342085) DHT11: Temperature: 27.059999 Humidity: 63.000000[0m
+[0;31mE (344115) DHT11: Failed to read data from DHT11![0m
+[0;32mI (346135) DHT11: Temperature: 27.059999 Humidity: 63.000000[0m
+[0;32mI (348165) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;31mE (350195) DHT11: Failed to read data from DHT11![0m
+[0;32mI (352215) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (354245) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (356275) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (358305) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;31mE (360325) DHT11: Failed to read data from DHT11![0m
+[0;32mI (362355) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;31mE (364375) DHT11: Failed to read data from DHT11![0m
+[0;32mI (366395) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (368425) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (370455) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (372475) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (374505) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (376535) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (378565) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (380595) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;31mE (382625) DHT11: Failed to read data from DHT11![0m
+[0;32mI (384655) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (386685) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (388705) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (390735) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (392765) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (394795) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (396815) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;31mE (398845) DHT11: Failed to read data from DHT11![0m
+[0;32mI (400865) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (402885) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (404915) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (406935) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (408965) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (410995) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (413025) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (415045) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (417075) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (419105) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (421135) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (423165) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (425195) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (427225) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;31mE (429255) DHT11: Failed to read data from DHT11![0m
+[0;32mI (431275) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (433305) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (435335) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;31mE (437365) DHT11: Failed to read data from DHT11![0m
+[0;31mE (439395) DHT11: Failed to read data from DHT11![0m
+[0;32mI (441425) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;31mE (443445) DHT11: Failed to read data from DHT11![0m
+[0;32mI (445465) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;31mE (445645) transport_base: tcp_read error, errno=Socket is not connected[0m
+[0;31mE (445645) mqtt_client: esp_mqtt_handle_transport_read_error: transport_read() error: errno=128[0m
+[0;32mI (445645) MQTT: Other event id:0[0m
+[0;31mE (445655) mqtt_client: mqtt_process_receive: mqtt_message_receive() returned -1[0m
+[0;32mI (445665) MQTT: Other event id:2[0m
+[0;32mI (447485) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;33mW (447485) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (447485) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;32mI (449515) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;33mW (449515) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (449515) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;32mI (451545) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;33mW (451545) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (451545) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;32mI (453575) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;33mW (453575) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (453575) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;31mE (455605) DHT11: Failed to read data from DHT11![0m
+[0;33mW (455605) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (455605) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;32mI (457635) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;33mW (457635) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (457635) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;32mI (459665) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;33mW (459665) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (459665) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;32mI (460665) MQTT: Other event id:7[0m
+[0;32mI (460835) MQTT: MQTT_EVENT_CONNECTED[0m
+[0;32mI (461695) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (463715) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (465735) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (467765) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (469795) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (471825) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (473845) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (475875) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (477905) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;31mE (479935) DHT11: Failed to read data from DHT11![0m
+[0;32mI (481955) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (483985) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (486015) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (488045) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;31mE (490065) DHT11: No responses from DHT11![0m
+[0;32mI (492095) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (494115) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (496145) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (498175) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (500195) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (502225) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (504255) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (506285) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (508315) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (510335) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (512365) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (514395) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;31mE (516415) DHT11: Failed to read data from DHT11![0m
+[0;32mI (518435) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (520465) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (522495) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (524525) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (526555) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;31mE (528575) DHT11: Failed to read data from DHT11![0m
+[0;32mI (530595) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (532625) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (534655) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (536685) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (538715) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (540745) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (542765) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (544785) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;31mE (546815) DHT11: Failed to read data from DHT11![0m
+[0;32mI (548835) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (550865) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (552885) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;31mE (554915) DHT11: Failed to read data from DHT11![0m
+[0;32mI (556935) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (558955) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;31mE (560975) DHT11: Failed to read data from DHT11![0m
+[0;32mI (562995) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (565015) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (567045) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (569075) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (571105) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (573125) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (575155) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (577185) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (579215) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (581235) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (583265) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (585295) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (587325) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (589345) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (591375) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (593405) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (595435) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (597465) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (599495) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (601525) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (603555) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (605585) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;31mE (607605) DHT11: Failed to read data from DHT11![0m
+[0;32mI (609625) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (611655) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (613685) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (615705) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (617725) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (619755) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (621785) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (623815) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (625845) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (627865) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (629895) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;31mE (631915) DHT11: Failed to read data from DHT11![0m
+[0;32mI (633935) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (635965) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (637995) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (640025) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (642055) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (644085) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (646115) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (648145) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (650175) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (652195) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;31mE (654225) DHT11: Failed to read data from DHT11![0m
+[0;32mI (656245) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (658265) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (660295) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (662325) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (664355) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (666375) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (668405) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (670435) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (672455) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (674475) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (676495) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (678525) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (680555) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;31mE (682575) DHT11: Failed to read data from DHT11![0m
+[0;31mE (684605) DHT11: Failed to read data from DHT11![0m
+[0;32mI (686635) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (688655) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (690685) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (692715) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (694745) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (696765) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (698795) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (700825) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (702855) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (704875) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (706905) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (708935) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (710965) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;31mE (712995) DHT11: Failed to read data from DHT11![0m
+[0;32mI (715025) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (717055) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (719085) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (721115) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (723145) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (725175) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (727205) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (729225) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (731255) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (733285) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (735315) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (737345) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (739375) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (741405) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (743425) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (745455) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (747485) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (749505) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (751525) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (753555) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (755575) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;31mE (757605) DHT11: Failed to read data from DHT11![0m
+[0;32mI (759625) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (761645) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (763675) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (765705) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (767735) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (769765) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (771795) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (773825) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (775855) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;31mE (776495) transport_base: tcp_read error, errno=Socket is not connected[0m
+[0;31mE (776495) mqtt_client: esp_mqtt_handle_transport_read_error: transport_read() error: errno=128[0m
+[0;32mI (776495) MQTT: Other event id:0[0m
+[0;31mE (776505) mqtt_client: mqtt_process_receive: mqtt_message_receive() returned -1[0m
+[0;32mI (776515) MQTT: Other event id:2[0m
+[0;32mI (777885) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;33mW (777885) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (777885) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;32mI (779915) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;33mW (779915) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (779915) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;32mI (781945) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;33mW (781945) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (781945) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;32mI (783975) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;33mW (783975) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (783975) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;32mI (786005) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;33mW (786005) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (786005) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;32mI (788035) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;33mW (788035) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (788035) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;32mI (790065) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;33mW (790065) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (790065) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;32mI (791515) MQTT: Other event id:7[0m
+[0;32mI (791805) MQTT: MQTT_EVENT_CONNECTED[0m
+[0;32mI (792095) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (794115) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;31mE (796145) DHT11: Failed to read data from DHT11![0m
+[0;32mI (798165) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (800195) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (802225) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (804255) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (806275) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (808305) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (810335) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (812365) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (814395) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;31mE (816425) DHT11: Failed to read data from DHT11![0m
+[0;32mI (818445) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (820465) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (822495) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (824525) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (826545) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (828565) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (830595) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (832625) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (834655) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (836685) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (838715) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (840745) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (842775) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (844805) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (846835) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (848865) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (850895) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (852925) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (854955) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (856985) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;31mE (859015) DHT11: Failed to read data from DHT11![0m
+[0;32mI (861045) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (863075) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (865105) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (867135) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;31mE (869155) DHT11: Failed to read data from DHT11![0m
+[0;32mI (871175) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (873205) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (875235) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;31mE (877265) DHT11: Failed to read data from DHT11![0m
+[0;32mI (879285) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (881315) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (883345) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;31mE (884935) transport_base: tcp_read error, errno=Socket is not connected[0m
+[0;31mE (884935) mqtt_client: esp_mqtt_handle_transport_read_error: transport_read() error: errno=128[0m
+[0;32mI (884945) MQTT: Other event id:0[0m
+[0;31mE (884945) mqtt_client: mqtt_process_receive: mqtt_message_receive() returned -1[0m
+[0;32mI (884955) MQTT: Other event id:2[0m
+[0;32mI (885375) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;33mW (885375) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (885375) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;32mI (887405) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;33mW (887405) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (887405) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;31mE (889435) DHT11: Failed to read data from DHT11![0m
+[0;33mW (889435) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (889435) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;32mI (891465) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;33mW (891465) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (891465) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;32mI (893495) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;33mW (893495) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (893495) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;32mI (895525) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;33mW (895525) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (895525) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;32mI (897555) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;33mW (897555) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (897555) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;32mI (899585) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;33mW (899585) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (899585) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;32mI (899955) MQTT: Other event id:7[0m
+[0;32mI (900005) MQTT: MQTT_EVENT_CONNECTED[0m
+[0;31mE (901615) DHT11: Failed to read data from DHT11![0m
+[0;32mI (903645) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (905675) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (907695) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (909725) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (911745) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (913765) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;31mE (915785) DHT11: Failed to read data from DHT11![0m
+[0;32mI (917805) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (919835) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (921865) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (923895) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (925925) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;31mE (927955) DHT11: Failed to read data from DHT11![0m
+[0;31mE (929985) DHT11: Failed to read data from DHT11![0m
+[0;32mI (932015) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (934045) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (936075) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (938105) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;31mE (940125) DHT11: Failed to read data from DHT11![0m
+[0;32mI (942145) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (944165) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (946195) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (948225) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;31mE (950255) DHT11: Failed to read data from DHT11![0m
+[0;32mI (952285) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (954315) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (956345) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (958365) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (960385) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;32mI (962405) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;31mE (963685) transport_base: tcp_read error, errno=Socket is not connected[0m
+[0;31mE (963685) mqtt_client: esp_mqtt_handle_transport_read_error: transport_read() error: errno=128[0m
+[0;32mI (963695) MQTT: Other event id:0[0m
+[0;31mE (963695) mqtt_client: mqtt_process_receive: mqtt_message_receive() returned -1[0m
+[0;32mI (963705) MQTT: Other event id:2[0m
+[0;32mI (964435) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;33mW (964435) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (964435) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;32mI (966465) DHT11: Temperature: 27.059999 Humidity: 64.000000[0m
+[0;33mW (966465) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (966465) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;31mE (968495) DHT11: Failed to read data from DHT11![0m
+[0;33mW (968495) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (968495) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;32mI (970525) DHT11: Temperature: 27.020000 Humidity: 64.000000[0m
+[0;33mW (970525) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (970525) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;32mI (972555) DHT11: Temperature: 27.020000 Humidity: 64.000000[0m
+[0;33mW (972555) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (972555) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;32mI (974585) DHT11: Temperature: 27.020000 Humidity: 64.000000[0m
+[0;33mW (974585) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (974585) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;32mI (976615) DHT11: Temperature: 27.020000 Humidity: 64.000000[0m
+[0;33mW (976615) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (976615) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;32mI (978645) DHT11: Temperature: 27.020000 Humidity: 64.000000[0m
+[0;33mW (978645) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (978645) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;32mI (978705) MQTT: Other event id:7[0m
+[0;32mI (978745) MQTT: MQTT_EVENT_CONNECTED[0m
+[0;31mE (980675) DHT11: Failed to read data from DHT11![0m
+[0;31mE (982705) DHT11: Failed to read data from DHT11![0m
+[0;32mI (984725) DHT11: Temperature: 27.020000 Humidity: 64.000000[0m
+[0;32mI (986755) DHT11: Temperature: 27.020000 Humidity: 64.000000[0m
+[0;32mI (988785) DHT11: Temperature: 27.010000 Humidity: 65.000000[0m
+[0;32mI (990815) DHT11: Temperature: 27.010000 Humidity: 65.000000[0m
+[0;32mI (992845) DHT11: Temperature: 27.020000 Humidity: 65.000000[0m
+[0;32mI (994865) DHT11: Temperature: 27.010000 Humidity: 65.000000[0m
+[0;32mI (996895) DHT11: Temperature: 27.010000 Humidity: 65.000000[0m
+[0;32mI (998925) DHT11: Temperature: 27.010000 Humidity: 65.000000[0m
+[0;31mE (1000945) DHT11: Failed to read data from DHT11![0m
+[0;32mI (1002975) DHT11: Temperature: 27.010000 Humidity: 65.000000[0m
+[0;32mI (1005005) DHT11: Temperature: 27.010000 Humidity: 64.000000[0m
+[0;32mI (1007035) DHT11: Temperature: 27.010000 Humidity: 64.000000[0m
+[0;32mI (1009065) DHT11: Temperature: 27.010000 Humidity: 64.000000[0m
+[0;32mI (1011095) DHT11: Temperature: 27.010000 Humidity: 64.000000[0m
+[0;32mI (1013125) DHT11: Temperature: 27.010000 Humidity: 64.000000[0m
+[0;32mI (1015155) DHT11: Temperature: 27.010000 Humidity: 64.000000[0m
+[0;32mI (1017185) DHT11: Temperature: 27.010000 Humidity: 64.000000[0m
+[0;32mI (1019215) DHT11: Temperature: 27.010000 Humidity: 64.000000[0m
+[0;31mE (1020815) transport_base: tcp_read error, errno=Socket is not connected[0m
+[0;31mE (1020815) mqtt_client: esp_mqtt_handle_transport_read_error: transport_read() error: errno=128[0m
+[0;32mI (1020825) MQTT: Other event id:0[0m
+[0;31mE (1020825) mqtt_client: mqtt_process_receive: mqtt_message_receive() returned -1[0m
+[0;32mI (1020835) MQTT: Other event id:2[0m
+[0;32mI (1021245) DHT11: Temperature: 27.010000 Humidity: 64.000000[0m
+[0;33mW (1021245) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (1021245) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;32mI (1023275) DHT11: Temperature: 27.010000 Humidity: 64.000000[0m
+[0;33mW (1023275) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (1023275) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;32mI (1025305) DHT11: Temperature: 27.010000 Humidity: 64.000000[0m
+[0;33mW (1025305) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (1025305) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;32mI (1027335) DHT11: Temperature: 27.010000 Humidity: 64.000000[0m
+[0;33mW (1027335) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (1027335) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;32mI (1029365) DHT11: Temperature: 27.010000 Humidity: 65.000000[0m
+[0;33mW (1029365) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (1029365) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;32mI (1031395) DHT11: Temperature: 27.010000 Humidity: 65.000000[0m
+[0;33mW (1031395) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (1031395) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;32mI (1033425) DHT11: Temperature: 27.010000 Humidity: 65.000000[0m
+[0;33mW (1033425) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (1033425) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;32mI (1035455) DHT11: Temperature: 27.010000 Humidity: 65.000000[0m
+[0;33mW (1035455) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (1035455) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;32mI (1035835) MQTT: Other event id:7[0m
+[0;32mI (1035915) MQTT: MQTT_EVENT_CONNECTED[0m
+[0;32mI (1037485) DHT11: Temperature: 27.010000 Humidity: 65.000000[0m
+[0;32mI (1039515) DHT11: Temperature: 27.010000 Humidity: 65.000000[0m
+[0;32mI (1041545) DHT11: Temperature: 27.010000 Humidity: 65.000000[0m
+[0;32mI (1043575) DHT11: Temperature: 27.010000 Humidity: 65.000000[0m
+[0;32mI (1045595) DHT11: Temperature: 27.010000 Humidity: 65.000000[0m
+[0;32mI (1047615) DHT11: Temperature: 27.010000 Humidity: 65.000000[0m
+[0;32mI (1049645) DHT11: Temperature: 27.010000 Humidity: 65.000000[0m
+[0;32mI (1051665) DHT11: Temperature: 27.010000 Humidity: 66.000000[0m
+[0;32mI (1053695) DHT11: Temperature: 27.010000 Humidity: 65.000000[0m
+[0;32mI (1055725) DHT11: Temperature: 27.010000 Humidity: 65.000000[0m
+[0;32mI (1057745) DHT11: Temperature: 27.010000 Humidity: 65.000000[0m
+[0;32mI (1059775) DHT11: Temperature: 27.010000 Humidity: 65.000000[0m
+[0;32mI (1061805) DHT11: Temperature: 27.010000 Humidity: 65.000000[0m
+[0;31mE (1063835) DHT11: Failed to read data from DHT11![0m
+[0;31mE (1065865) DHT11: Failed to read data from DHT11![0m
+[0;32mI (1067885) DHT11: Temperature: 27.010000 Humidity: 65.000000[0m
+[0;32mI (1069915) DHT11: Temperature: 27.010000 Humidity: 65.000000[0m
+[0;32mI (1071935) DHT11: Temperature: 27.010000 Humidity: 65.000000[0m
+[0;32mI (1073965) DHT11: Temperature: 27.010000 Humidity: 64.000000[0m
+[0;32mI (1075985) DHT11: Temperature: 27.010000 Humidity: 65.000000[0m
+[0;32mI (1078005) DHT11: Temperature: 27.010000 Humidity: 64.000000[0m
+[0;32mI (1080035) DHT11: Temperature: 27.010000 Humidity: 64.000000[0m
+[0;32mI (1082065) DHT11: Temperature: 27.010000 Humidity: 65.000000[0m
+[0;32mI (1084095) DHT11: Temperature: 27.010000 Humidity: 65.000000[0m
+[0;32mI (1086125) DHT11: Temperature: 27.010000 Humidity: 65.000000[0m
+[0;32mI (1088155) DHT11: Temperature: 27.010000 Humidity: 65.000000[0m
+[0;32mI (1090175) DHT11: Temperature: 27.010000 Humidity: 65.000000[0m
+[0;32mI (1092205) DHT11: Temperature: 27.010000 Humidity: 65.000000[0m
+[0;31mE (1094235) DHT11: Failed to read data from DHT11![0m
+[0;32mI (1096255) DHT11: Temperature: 27.010000 Humidity: 65.000000[0m
+[0;32mI (1098285) DHT11: Temperature: 27.010000 Humidity: 65.000000[0m
+[0;32mI (1100315) DHT11: Temperature: 27.010000 Humidity: 65.000000[0m
+[0;31mE (1102335) DHT11: Failed to read data from DHT11![0m
+[0;32mI (1104355) DHT11: Temperature: 27.010000 Humidity: 65.000000[0m
+[0;32mI (1106385) DHT11: Temperature: 27.010000 Humidity: 65.000000[0m
+[0;32mI (1108415) DHT11: Temperature: 27.010000 Humidity: 65.000000[0m
+[0;32mI (1110445) DHT11: Temperature: 27.010000 Humidity: 65.000000[0m
+[0;32mI (1112475) DHT11: Temperature: 27.010000 Humidity: 65.000000[0m
+[0;32mI (1114495) DHT11: Temperature: 27.010000 Humidity: 65.000000[0m
+[0;31mE (1116525) DHT11: Failed to read data from DHT11![0m
+[0;32mI (1118545) DHT11: Temperature: 27.020000 Humidity: 65.000000[0m
+[0;32mI (1120565) DHT11: Temperature: 27.010000 Humidity: 65.000000[0m
+[0;31mE (1122595) DHT11: Failed to read data from DHT11![0m
+[0;32mI (1124625) DHT11: Temperature: 27.010000 Humidity: 65.000000[0m
+[0;32mI (1126655) DHT11: Temperature: 27.020000 Humidity: 65.000000[0m
+[0;32mI (1128685) DHT11: Temperature: 27.020000 Humidity: 65.000000[0m
+[0;32mI (1130715) DHT11: Temperature: 27.010000 Humidity: 65.000000[0m
+[0;32mI (1132745) DHT11: Temperature: 27.010000 Humidity: 65.000000[0m
+[0;32mI (1134775) DHT11: Temperature: 27.010000 Humidity: 65.000000[0m
+[0;32mI (1136805) DHT11: Temperature: 27.010000 Humidity: 65.000000[0m
+[0;31mE (1138835) DHT11: Failed to read data from DHT11![0m
+[0;32mI (1140865) DHT11: Temperature: 27.010000 Humidity: 65.000000[0m
+[0;32mI (1142885) DHT11: Temperature: 27.020000 Humidity: 66.000000[0m
+[0;32mI (1144915) DHT11: Temperature: 27.020000 Humidity: 65.000000[0m
+[0;32mI (1146945) DHT11: Temperature: 27.020000 Humidity: 66.000000[0m
+[0;32mI (1148975) DHT11: Temperature: 27.020000 Humidity: 66.000000[0m
+[0;32mI (1151005) DHT11: Temperature: 27.020000 Humidity: 66.000000[0m
+[0;32mI (1153035) DHT11: Temperature: 27.030001 Humidity: 66.000000[0m
+[0;32mI (1155065) DHT11: Temperature: 27.040001 Humidity: 66.000000[0m
+[0;32mI (1157095) DHT11: Temperature: 27.049999 Humidity: 65.000000[0m
+[0;32mI (1159125) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (1161155) DHT11: Temperature: 27.049999 Humidity: 66.000000[0m
+[0;32mI (1163185) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (1165205) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (1167225) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (1169245) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (1171275) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (1173295) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (1175325) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (1177355) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (1179385) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (1181415) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (1183445) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;31mE (1185465) DHT11: Failed to read data from DHT11![0m
+[0;32mI (1187495) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (1189515) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (1191545) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (1193565) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (1195595) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (1197615) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (1199645) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (1201675) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (1203705) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (1205735) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (1207765) DHT11: Temperature: 27.049999 Humidity: 66.000000[0m
+[0;32mI (1209795) DHT11: Temperature: 27.049999 Humidity: 66.000000[0m
+[0;32mI (1211825) DHT11: Temperature: 27.049999 Humidity: 66.000000[0m
+[0;32mI (1213855) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;31mE (1215885) DHT11: Failed to read data from DHT11![0m
+[0;32mI (1217915) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (1219945) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (1221965) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (1223985) DHT11: Temperature: 27.040001 Humidity: 67.000000[0m
+[0;32mI (1226015) DHT11: Temperature: 27.030001 Humidity: 67.000000[0m
+[0;32mI (1228045) DHT11: Temperature: 27.030001 Humidity: 67.000000[0m
+[0;32mI (1230065) DHT11: Temperature: 27.020000 Humidity: 67.000000[0m
+[0;31mE (1232085) DHT11: Failed to read data from DHT11![0m
+[0;32mI (1234115) DHT11: Temperature: 27.030001 Humidity: 67.000000[0m
+[0;32mI (1236145) DHT11: Temperature: 27.030001 Humidity: 67.000000[0m
+[0;32mI (1238175) DHT11: Temperature: 27.030001 Humidity: 67.000000[0m
+[0;32mI (1240195) DHT11: Temperature: 27.030001 Humidity: 67.000000[0m
+[0;32mI (1242225) DHT11: Temperature: 27.020000 Humidity: 67.000000[0m
+[0;32mI (1244255) DHT11: Temperature: 27.020000 Humidity: 67.000000[0m
+[0;32mI (1246285) DHT11: Temperature: 27.020000 Humidity: 67.000000[0m
+[0;32mI (1248315) DHT11: Temperature: 27.010000 Humidity: 66.000000[0m
+[0;32mI (1250345) DHT11: Temperature: 27.010000 Humidity: 66.000000[0m
+[0;32mI (1252375) DHT11: Temperature: 27.010000 Humidity: 66.000000[0m
+[0;32mI (1254405) DHT11: Temperature: 27.010000 Humidity: 66.000000[0m
+[0;32mI (1256435) DHT11: Temperature: 27.010000 Humidity: 66.000000[0m
+[0;32mI (1258455) DHT11: Temperature: 27.010000 Humidity: 66.000000[0m
+[0;32mI (1260485) DHT11: Temperature: 27.010000 Humidity: 66.000000[0m
+[0;32mI (1262515) DHT11: Temperature: 27.010000 Humidity: 66.000000[0m
+[0;32mI (1264545) DHT11: Temperature: 27.010000 Humidity: 66.000000[0m
+[0;32mI (1266565) DHT11: Temperature: 27.010000 Humidity: 65.000000[0m
+[0;31mE (1268585) DHT11: Failed to read data from DHT11![0m
+[0;31mE (1270605) DHT11: Failed to read data from DHT11![0m
+[0;32mI (1272635) DHT11: Temperature: 27.010000 Humidity: 65.000000[0m
+[0;32mI (1274655) DHT11: Temperature: 27.010000 Humidity: 65.000000[0m
+[0;32mI (1276685) DHT11: Temperature: 27.010000 Humidity: 65.000000[0m
+[0;32mI (1278715) DHT11: Temperature: 27.010000 Humidity: 65.000000[0m
+[0;32mI (1280745) DHT11: Temperature: 27.010000 Humidity: 65.000000[0m
+[0;32mI (1282775) DHT11: Temperature: 27.010000 Humidity: 65.000000[0m
+[0;32mI (1284805) DHT11: Temperature: 27.010000 Humidity: 65.000000[0m
+[0;31mE (1286835) DHT11: Failed to read data from DHT11![0m
+[0;32mI (1288865) DHT11: Temperature: 27.010000 Humidity: 65.000000[0m
+[0;32mI (1290895) DHT11: Temperature: 27.010000 Humidity: 65.000000[0m
+[0;32mI (1292925) DHT11: Temperature: 27.010000 Humidity: 65.000000[0m
+[0;32mI (1294955) DHT11: Temperature: 27.020000 Humidity: 65.000000[0m
+[0;32mI (1296985) DHT11: Temperature: 27.010000 Humidity: 65.000000[0m
+[0;32mI (1299015) DHT11: Temperature: 27.020000 Humidity: 65.000000[0m
+[0;32mI (1301045) DHT11: Temperature: 27.020000 Humidity: 65.000000[0m
+[0;32mI (1303075) DHT11: Temperature: 27.020000 Humidity: 65.000000[0m
+[0;32mI (1305105) DHT11: Temperature: 27.049999 Humidity: 65.000000[0m
+[0;32mI (1307135) DHT11: Temperature: 27.049999 Humidity: 65.000000[0m
+[0;32mI (1309155) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (1311185) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (1313215) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (1315245) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (1317275) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (1319295) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (1321325) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (1323355) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (1325385) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (1327415) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;31mE (1329445) DHT11: Failed to read data from DHT11![0m
+[0;32mI (1331475) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;31mE (1332725) transport_base: tcp_read error, errno=Socket is not connected[0m
+[0;31mE (1332725) mqtt_client: esp_mqtt_handle_transport_read_error: transport_read() error: errno=128[0m
+[0;32mI (1332735) MQTT: Other event id:0[0m
+[0;31mE (1332735) mqtt_client: mqtt_process_receive: mqtt_message_receive() returned -1[0m
+[0;32mI (1332745) MQTT: Other event id:2[0m
+[0;32mI (1333505) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;33mW (1333505) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (1333505) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;32mI (1335535) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;33mW (1335535) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (1335535) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;32mI (1337565) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;33mW (1337565) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (1337565) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;32mI (1339595) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;33mW (1339595) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (1339595) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;31mE (1341625) DHT11: Failed to read data from DHT11![0m
+[0;33mW (1341625) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (1341625) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;32mI (1342755) MQTT: Other event id:7[0m
+[0;32mI (1343065) MQTT: MQTT_EVENT_CONNECTED[0m
+[0;32mI (1343655) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (1345685) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (1347715) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (1349745) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (1351775) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (1353805) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (1355835) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (1357865) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (1359895) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (1361925) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (1363945) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (1365975) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;31mE (1368005) DHT11: Failed to read data from DHT11![0m
+[0;32mI (1370025) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (1372045) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (1374075) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (1376105) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (1378135) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (1380155) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (1382185) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (1384215) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (1386235) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (1388265) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (1390295) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (1392325) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (1394355) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (1396385) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (1398415) DHT11: Temperature: 27.059999 Humidity: 66.000000[0m
+[0;32mI (1400445) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;31mE (1401745) transport_base: tcp_read error, errno=Socket is not connected[0m
+[0;31mE (1401745) mqtt_client: esp_mqtt_handle_transport_read_error: transport_read() error: errno=128[0m
+[0;32mI (1401755) MQTT: Other event id:0[0m
+[0;31mE (1401755) mqtt_client: mqtt_process_receive: mqtt_message_receive() returned -1[0m
+[0;32mI (1401765) MQTT: Other event id:2[0m
+[0;32mI (1402475) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;33mW (1402475) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (1402475) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;32mI (1404505) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;33mW (1404505) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (1404505) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;32mI (1406535) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;33mW (1406535) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (1406535) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;32mI (1408565) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;33mW (1408565) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (1408565) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;32mI (1410595) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;33mW (1410595) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (1410595) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;32mI (1412625) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;33mW (1412625) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (1412625) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;32mI (1414655) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;33mW (1414655) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (1414655) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;31mE (1416685) DHT11: Failed to read data from DHT11![0m
+[0;33mW (1416685) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;33mW (1416685) mqtt_client: Publish: Losing qos0 data when client not connected[0m
+[0;32mI (1416765) MQTT: Other event id:7[0m
+[0;32mI (1417005) MQTT: MQTT_EVENT_CONNECTED[0m
+[0;32mI (1418715) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (1420745) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (1422775) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (1424795) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (1426825) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (1428855) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (1430885) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (1432915) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m
+[0;32mI (1434945) DHT11: Temperature: 27.059999 Humidity: 65.000000[0m

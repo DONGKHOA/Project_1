@@ -1,0 +1,5 @@
+{
+    "idf.adapterTargetName": "esp32",
+    "idf.port": "/dev/ttyUSB0",
+    "cmake.sourceDirectory": "/home/dongkhoa/Documents/Test_Do_An_1/Test_1"
+}

@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/dongkhoa/Documents/Test_Do_An_1/Test_1/build/CMakeFiles/bootloader"
+		},
+		{
+			"file" : "/home/dongkhoa/Documents/Test_Do_An_1/Test_1/build/CMakeFiles/bootloader.rule"
+		},
+		{
+			"file" : "/home/dongkhoa/Documents/Test_Do_An_1/Test_1/build/CMakeFiles/bootloader-complete.rule"
+		},
+		{
+			"file" : "/home/dongkhoa/Documents/Test_Do_An_1/Test_1/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
+		},
+		{
+			"file" : "/home/dongkhoa/Documents/Test_Do_An_1/Test_1/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
+		},
+		{
+			"file" : "/home/dongkhoa/Documents/Test_Do_An_1/Test_1/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
+		},
+		{
+			"file" : "/home/dongkhoa/Documents/Test_Do_An_1/Test_1/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
+		},
+		{
+			"file" : "/home/dongkhoa/Documents/Test_Do_An_1/Test_1/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
+		},
+		{
+			"file" : "/home/dongkhoa/Documents/Test_Do_An_1/Test_1/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
+		},
+		{
+			"file" : "/home/dongkhoa/Documents/Test_Do_An_1/Test_1/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"bootloader"
+		],
+		"name" : "bootloader"
+	}
+}
