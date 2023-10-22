@@ -11,5 +11,6 @@ typedef enum
 }WIFI_Status_t;
 
 uint8_t WIFI_Station_Init(uint8_t *ssid, uint8_t *password);
+void WIFI_Scan(void);
 
 #endif
