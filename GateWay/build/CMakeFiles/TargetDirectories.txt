@@ -649,6 +649,12 @@
 /home/dongkhoa/Documents/Project_1/GateWay/build/esp-idf/lvgl/CMakeFiles/install.dir
 /home/dongkhoa/Documents/Project_1/GateWay/build/esp-idf/lvgl/CMakeFiles/install/local.dir
 /home/dongkhoa/Documents/Project_1/GateWay/build/esp-idf/lvgl/CMakeFiles/install/strip.dir
+/home/dongkhoa/Documents/Project_1/GateWay/build/esp-idf/lv_examples/CMakeFiles/edit_cache.dir
+/home/dongkhoa/Documents/Project_1/GateWay/build/esp-idf/lv_examples/CMakeFiles/rebuild_cache.dir
+/home/dongkhoa/Documents/Project_1/GateWay/build/esp-idf/lv_examples/CMakeFiles/list_install_components.dir
+/home/dongkhoa/Documents/Project_1/GateWay/build/esp-idf/lv_examples/CMakeFiles/install.dir
+/home/dongkhoa/Documents/Project_1/GateWay/build/esp-idf/lv_examples/CMakeFiles/install/local.dir
+/home/dongkhoa/Documents/Project_1/GateWay/build/esp-idf/lv_examples/CMakeFiles/install/strip.dir
 /home/dongkhoa/Documents/Project_1/GateWay/build/esp-idf/lvgl_esp32_drivers/CMakeFiles/__idf_lvgl_esp32_drivers.dir
 /home/dongkhoa/Documents/Project_1/GateWay/build/esp-idf/lvgl_esp32_drivers/CMakeFiles/edit_cache.dir
 /home/dongkhoa/Documents/Project_1/GateWay/build/esp-idf/lvgl_esp32_drivers/CMakeFiles/rebuild_cache.dir
