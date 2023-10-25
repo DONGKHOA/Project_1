@@ -404,6 +404,31 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("/home/dongkhoa/Documents/Project_1/GateWay/build/esp-idf/lvgl/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/dongkhoa/Documents/Project_1/GateWay/build/esp-idf/lvgl_esp32_drivers/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/dongkhoa/Documents/Project_1/GateWay/build/esp-idf/lvgl_touch/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/dongkhoa/Documents/Project_1/GateWay/build/esp-idf/lvgl_tft/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/dongkhoa/Documents/Project_1/GateWay/build/esp-idf/lv_examples/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("/home/dongkhoa/Documents/Project_1/GateWay/build/esp-idf/main/cmake_install.cmake")
 endif()
 
@@ -430,20 +455,5 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
   include("/home/dongkhoa/Documents/Project_1/GateWay/build/esp-idf/WIFI/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("/home/dongkhoa/Documents/Project_1/GateWay/build/esp-idf/lvgl/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("/home/dongkhoa/Documents/Project_1/GateWay/build/esp-idf/lv_examples/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("/home/dongkhoa/Documents/Project_1/GateWay/build/esp-idf/lvgl_esp32_drivers/cmake_install.cmake")
 endif()
 

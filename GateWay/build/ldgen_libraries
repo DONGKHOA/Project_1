@@ -59,11 +59,14 @@
 /home/dongkhoa/Documents/Project_1/GateWay/build/esp-idf/perfmon/libperfmon.a
 /home/dongkhoa/Documents/Project_1/GateWay/build/esp-idf/spiffs/libspiffs.a
 /home/dongkhoa/Documents/Project_1/GateWay/build/esp-idf/wifi_provisioning/libwifi_provisioning.a
+/home/dongkhoa/Documents/Project_1/GateWay/build/esp-idf/lvgl/liblvgl.a
+/home/dongkhoa/Documents/Project_1/GateWay/build/esp-idf/lvgl_esp32_drivers/liblvgl_esp32_drivers.a
+/home/dongkhoa/Documents/Project_1/GateWay/build/esp-idf/lvgl_touch/liblvgl_touch.a
+/home/dongkhoa/Documents/Project_1/GateWay/build/esp-idf/lvgl_tft/liblvgl_tft.a
+/home/dongkhoa/Documents/Project_1/GateWay/build/esp-idf/lv_examples/liblv_examples.a
 /home/dongkhoa/Documents/Project_1/GateWay/build/esp-idf/main/libmain.a
 /home/dongkhoa/Documents/Project_1/GateWay/build/esp-idf/GPIO/libGPIO.a
 /home/dongkhoa/Documents/Project_1/GateWay/build/esp-idf/DHT/libDHT.a
 /home/dongkhoa/Documents/Project_1/GateWay/build/esp-idf/NVS/libNVS.a
 /home/dongkhoa/Documents/Project_1/GateWay/build/esp-idf/MQTT/libMQTT.a
 /home/dongkhoa/Documents/Project_1/GateWay/build/esp-idf/WIFI/libWIFI.a
-/home/dongkhoa/Documents/Project_1/GateWay/build/esp-idf/lvgl/liblvgl.a
-/home/dongkhoa/Documents/Project_1/GateWay/build/esp-idf/lvgl_esp32_drivers/liblvgl_esp32_drivers.a

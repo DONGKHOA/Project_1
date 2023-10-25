@@ -1,0 +1,355 @@
+[1/335] Linking C static library esp-idf/cmock/libcmock.a
+[2/335] Linking C static library esp-idf/esp_hid/libesp_hid.a
+[3/335] Linking C static library esp-idf/console/libconsole.a
+[4/335] Performing build step for 'bootloader'
+[1/1] cd /home/dongkhoa/Documents/Project_1/GateWay/build/bootloader/esp-idf/esptool_py && /home/dongkhoa/esp/python_env/idf5.1_py3.10_env/bin/python /home/dongkhoa/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/dongkhoa/Documents/Project_1/GateWay/build/bootloader/bootloader.bin
+Bootloader binary size 0x6810 bytes. 0x7f0 bytes (7%) free.
+[5/333] Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io.c.obj
+[6/333] Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_ops.c.obj
+[7/333] Building C object esp-idf/lvgl_touch/CMakeFiles/__idf_lvgl_touch.dir/touch_driver.c.obj
+[8/333] Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_st7789.c.obj
+[9/333] Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_ssd1306.c.obj
+[10/333] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/proto-c/constants.pb-c.c.obj
+[11/333] Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_nt35510.c.obj
+[12/333] Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io_spi.c.obj
+[13/333] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/proto-c/sec0.pb-c.c.obj
+[14/333] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/proto-c/sec2.pb-c.c.obj
+[15/333] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/common/protocomm.c.obj
+[16/333] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/proto-c/session.pb-c.c.obj
+[17/333] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/transports/protocomm_console.c.obj
+[18/333] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/proto-c/sec1.pb-c.c.obj
+[19/333] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/crypto/srp6a/esp_srp_mpi.c.obj
+[20/333] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/security/security0.c.obj
+[21/333] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/transports/protocomm_httpd.c.obj
+[22/333] Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io_i2s.c.obj
+[23/333] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/security/security1.c.obj
+[24/333] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/security/security2.c.obj
+[25/333] Building C object esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/src/esp_local_ctrl_handler.c.obj
+[26/333] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/crypto/srp6a/esp_srp.c.obj
+[27/333] Linking C static library esp-idf/esp_lcd/libesp_lcd.a
+[28/333] Building C object esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_common.c.obj
+[29/333] Building C object esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/src/esp_local_ctrl.c.obj
+[30/333] Building C object esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/src/esp_local_ctrl_transport_httpd.c.obj
+[31/333] Building C object esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/proto-c/esp_local_ctrl.pb-c.c.obj
+[32/333] Building C object esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_checksum.c.obj
+[33/333] Building C object esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_binary.c.obj
+[34/333] Building C object esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_elf.c.obj
+[35/333] Building C object esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_uart.c.obj
+[36/333] Building CXX object esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/crc32.cpp.obj
+[37/333] Building CXX object esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/Partition.cpp.obj
+[38/333] Building C object esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/port/xtensa/core_dump_port.c.obj
+[39/333] Building C object esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_flash.c.obj
+[40/333] Building CXX object esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Ext_Perf.cpp.obj
+[41/333] Building CXX object esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/SPI_Flash.cpp.obj
+[42/333] Linking C static library esp-idf/espcoredump/libespcoredump.a
+[43/333] Building C object esp-idf/protobuf-c/CMakeFiles/__idf_protobuf-c.dir/protobuf-c/protobuf-c/protobuf-c.c.obj
+[44/333] Linking C static library esp-idf/protobuf-c/libprotobuf-c.a
+[45/333] Building CXX object esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/wear_levelling.cpp.obj
+[46/333] Building CXX object esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Ext_Safe.cpp.obj
+[47/333] Building C object esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_init.c.obj
+[48/333] Linking C static library esp-idf/protocomm/libprotocomm.a
+[49/333] Building C object esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_common.c.obj
+[50/333] Building C object esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_io.c.obj
+[51/333] Linking C static library esp-idf/esp_local_ctrl/libesp_local_ctrl.a
+[52/333] Building C object esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_mmc.c.obj
+[53/333] Building C object esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_sd.c.obj
+[54/333] Building C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/diskio/diskio_sdmmc.c.obj
+[55/333] Building C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/diskio/diskio_rawflash.c.obj
+[56/333] Building C object esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_cmd.c.obj
+[57/333] Building C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/diskio/diskio.c.obj
+[58/333] Building C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/port/freertos/ffsystem.c.obj
+[59/333] Linking C static library esp-idf/sdmmc/libsdmmc.a
+[60/333] Building C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/diskio/diskio_wl.c.obj
+[61/333] Building CXX object esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Flash.cpp.obj
+[62/333] Building C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/src/ffunicode.c.obj
+[63/333] Linking C static library esp-idf/wear_levelling/libwear_levelling.a
+[64/333] Building C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/vfs/vfs_fat_sdmmc.c.obj
+[65/333] Building C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/vfs/vfs_fat_spiflash.c.obj
+[66/333] Building C object esp-idf/perfmon/CMakeFiles/__idf_perfmon.dir/xtensa_perfmon_apis.c.obj
+[67/333] Building C object esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/lib/mqtt_msg.c.obj
+[68/333] Building C object esp-idf/perfmon/CMakeFiles/__idf_perfmon.dir/xtensa_perfmon_access.c.obj
+[69/333] Building C object esp-idf/json/CMakeFiles/__idf_json.dir/cJSON/cJSON_Utils.c.obj
+[70/333] Building C object esp-idf/perfmon/CMakeFiles/__idf_perfmon.dir/xtensa_perfmon_masks.c.obj
+[71/333] Building C object esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/lib/mqtt_outbox.c.obj
+[72/333] Building C object esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/lib/platform_esp32_idf.c.obj
+[73/333] Building C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/vfs/vfs_fat.c.obj
+[74/333] Linking C static library esp-idf/perfmon/libperfmon.a
+[75/333] Building C object esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs_api.c.obj
+[76/333] Building C object esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs/src/spiffs_cache.c.obj
+[77/333] Building C object esp-idf/json/CMakeFiles/__idf_json.dir/cJSON/cJSON.c.obj
+[78/333] Linking C static library esp-idf/json/libjson.a
+[79/333] Building C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/wifi_config.c.obj
+[80/333] Building C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/src/ff.c.obj
+[81/333] Building C object esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs/src/spiffs_gc.c.obj
+[82/333] Linking C static library esp-idf/fatfs/libfatfs.a
+[83/333] Building C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/wifi_ctrl.c.obj
+[84/333] Building C object esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs/src/spiffs_check.c.obj
+[85/333] Building C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/handlers.c.obj
+[86/333] Building C object esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs/src/spiffs_hydrogen.c.obj
+[87/333] Building C object esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/esp_spiffs.c.obj
+[88/333] Building C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/wifi_scan.c.obj
+[89/333] Building C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/proto-c/wifi_ctrl.pb-c.c.obj
+[90/333] Building C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/scheme_console.c.obj
+[91/333] Building C object esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/mqtt_client.c.obj
+[92/333] Building C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/proto-c/wifi_constants.pb-c.c.obj
+[93/333] Building C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/proto-c/wifi_config.pb-c.c.obj
+[94/333] Building C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/proto-c/wifi_scan.pb-c.c.obj
+[95/333] Linking C static library esp-idf/mqtt/libmqtt.a
+[96/333] Building C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/scheme_softap.c.obj
+[97/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_core/lv_debug.c.obj
+[98/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_core/lv_disp.c.obj
+[99/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_core/lv_group.c.obj
+[100/333] Building C object esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs/src/spiffs_nucleus.c.obj
+[101/333] Linking C static library esp-idf/spiffs/libspiffs.a
+[102/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_draw/lv_draw_arc.c.obj
+[103/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_core/lv_refr.c.obj
+[104/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_core/lv_indev.c.obj
+[105/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_draw/lv_draw_blend.c.obj
+[106/333] Building C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/manager.c.obj
+[107/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_core/lv_style.c.obj
+[108/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_draw/lv_draw_label.c.obj
+[109/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_draw/lv_draw_img.c.obj
+[110/333] Linking C static library esp-idf/wifi_provisioning/libwifi_provisioning.a
+[111/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_draw/lv_draw_triangle.c.obj
+[112/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_draw/lv_img_cache.c.obj
+[113/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_draw/lv_draw_line.c.obj
+[114/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_font/lv_font_montserrat_18.c.obj
+[115/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_font/lv_font.c.obj
+[116/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_draw/lv_img_buf.c.obj
+[117/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_font/lv_font_montserrat_20.c.obj
+[118/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_draw/lv_img_decoder.c.obj
+[119/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_font/lv_font_dejavu_16_persian_hebrew.c.obj
+[120/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_font/lv_font_montserrat_12.c.obj
+[121/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_font/lv_font_fmt_txt.c.obj
+[122/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_font/lv_font_montserrat_12_subpx.c.obj
+[123/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_draw/lv_draw_mask.c.obj
+[124/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_font/lv_font_montserrat_16.c.obj
+[125/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_font/lv_font_montserrat_22.c.obj
+[126/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_font/lv_font_montserrat_28.c.obj
+[127/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_font/lv_font_montserrat_14.c.obj
+[128/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_font/lv_font_montserrat_26.c.obj
+[129/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_font/lv_font_montserrat_38.c.obj
+[130/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_font/lv_font_montserrat_24.c.obj
+[131/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_font/lv_font_montserrat_34.c.obj
+[132/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_font/lv_font_montserrat_36.c.obj
+[133/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_font/lv_font_montserrat_28_compressed.c.obj
+[134/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_draw/lv_draw_rect.c.obj
+[135/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_font/lv_font_montserrat_32.c.obj
+[136/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_font/lv_font_montserrat_30.c.obj
+[137/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_core/lv_obj.c.obj
+[138/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_font/lv_font_montserrat_40.c.obj
+[139/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_font/lv_font_montserrat_44.c.obj
+[140/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_font/lv_font_montserrat_42.c.obj
+[141/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_font/lv_font_unscii_8.c.obj
+[142/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_misc/lv_async.c.obj
+[143/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_font/lv_font_simsun_16_cjk.c.obj
+[144/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_font/lv_font_montserrat_46.c.obj
+[145/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_hal/lv_hal_indev.c.obj
+[146/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_font/lv_font_montserrat_48.c.obj
+[147/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_gpu/lv_gpu_stm32_dma2d.c.obj
+[148/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_hal/lv_hal_tick.c.obj
+[149/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_misc/lv_bidi.c.obj
+[150/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_hal/lv_hal_disp.c.obj
+[151/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_misc/lv_gc.c.obj
+[152/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_misc/lv_ll.c.obj
+[153/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_misc/lv_color.c.obj
+[154/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_misc/lv_log.c.obj
+[155/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_misc/lv_templ.c.obj
+[156/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_misc/lv_area.c.obj
+[157/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_misc/lv_math.c.obj
+[158/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_misc/lv_anim.c.obj
+[159/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_misc/lv_task.c.obj
+[160/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_misc/lv_fs.c.obj
+[161/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_misc/lv_utils.c.obj
+[162/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_misc/lv_txt_ap.c.obj
+[163/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_themes/lv_theme_mono.c.obj
+[164/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_misc/lv_mem.c.obj
+[165/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_themes/lv_theme_empty.c.obj
+[166/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_themes/lv_theme.c.obj
+[167/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_misc/lv_printf.c.obj
+[168/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_misc/lv_txt.c.obj
+[169/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_themes/lv_theme_template.c.obj
+[170/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_widgets/lv_bar.c.obj
+[171/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_widgets/lv_checkbox.c.obj
+[172/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_widgets/lv_btn.c.obj
+[173/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_widgets/lv_arc.c.obj
+[174/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_widgets/lv_imgbtn.c.obj
+[175/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_widgets/lv_chart.c.obj
+[176/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_widgets/lv_calendar.c.obj
+[177/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_widgets/lv_canvas.c.obj
+[178/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_widgets/lv_cont.c.obj
+[179/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_widgets/lv_btnmatrix.c.obj
+[180/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_widgets/lv_cpicker.c.obj
+[181/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_widgets/lv_dropdown.c.obj
+[182/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_widgets/lv_img.c.obj
+[183/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_widgets/lv_line.c.obj
+[184/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_widgets/lv_gauge.c.obj
+[185/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_widgets/lv_keyboard.c.obj
+[186/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_widgets/lv_led.c.obj
+[187/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_widgets/lv_linemeter.c.obj
+[188/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_widgets/lv_list.c.obj
+[189/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_widgets/lv_objx_templ.c.obj
+[190/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_widgets/lv_msgbox.c.obj
+[191/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_widgets/lv_objmask.c.obj
+[192/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_widgets/lv_switch.c.obj
+[193/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_themes/lv_theme_material.c.obj
+[194/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_widgets/lv_spinner.c.obj
+[195/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_widgets/lv_label.c.obj
+[196/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_widgets/lv_slider.c.obj
+[197/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_widgets/lv_spinbox.c.obj
+[198/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_widgets/lv_table.c.obj
+[199/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_widgets/lv_roller.c.obj
+[200/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_widgets/lv_tileview.c.obj
+[201/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_widgets/lv_page.c.obj
+[202/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/assets/mouse_cursor_icon.c.obj
+[203/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_widgets/lv_tabview.c.obj
+[204/333] Building C object esp-idf/lvgl_tft/CMakeFiles/__idf_lvgl_tft.dir/disp_spi.c.obj
+[205/333] Building C object esp-idf/lvgl_tft/CMakeFiles/__idf_lvgl_tft.dir/disp_driver.c.obj
+[206/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/assets/img_cogwheel_alpha16.c.obj
+[207/333] Building C object esp-idf/lvgl_tft/CMakeFiles/__idf_lvgl_tft.dir/ili9341.c.obj
+[208/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_widgets/lv_win.c.obj
+[209/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/assets/img_cogwheel_indexed16.c.obj
+[210/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/assets/lv_font_montserrat_16_compr_az.c.obj
+[211/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/assets/lv_font_montserrat_12_compr_az.c.obj
+[212/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/assets/img_cogwheel_argb.c.obj
+[213/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/assets/img_cogwheel_chroma_keyed.c.obj
+[214/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/assets/lv_font_montserrat_28_compr_az.c.obj
+[215/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/assets/img_cogwheel_rgb.c.obj
+[216/333] Building C object esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/lvgl/src/lv_widgets/lv_textarea.c.obj
+[217/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_demo_benchmark/lv_demo_benchmark.c.obj
+[218/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_demo_printer/images/lv_demo_printer_icon_bright.c.obj
+[219/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_demo_printer/images/lv_demo_printer_icon_hue.c.obj
+[220/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_demo_printer/images/lv_demo_printer_icon_eco.c.obj
+[221/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_demo_keypad_encoder/lv_demo_keypad_encoder.c.obj
+[222/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_demo_printer/images/lv_demo_printer_icon_pc.c.obj
+[223/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_demo_printer/images/lv_demo_printer_icon_wifi.c.obj
+[224/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_demo_printer/images/lv_demo_printer_icon_tel.c.obj
+[225/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_demo_printer/images/lv_demo_printer_img_copy.c.obj
+[226/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_demo_printer/images/lv_demo_printer_img_mobile.c.obj
+[227/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_demo_printer/images/lv_demo_printer_img_btn_bg_1.c.obj
+[228/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_demo_printer/images/lv_demo_printer_img_internet.c.obj
+[229/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_demo_printer/images/lv_demo_printer_img_btn_bg_4.c.obj
+[230/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_demo_printer/images/lv_demo_printer_img_cloud.c.obj
+[231/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_demo_printer/images/lv_demo_printer_img_btn_bg_2.c.obj
+[232/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_demo_printer/images/lv_demo_printer_img_btn_bg_3.c.obj
+[233/333] Linking C static library esp-idf/lvgl/liblvgl.a
+[234/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_demo_printer/images/lv_demo_printer_img_phone.c.obj
+[235/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_demo_printer/images/lv_demo_printer_img_no_internet.c.obj
+[236/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_demo_printer/images/lv_demo_printer_img_print.c.obj
+[237/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_demo_printer/images/lv_demo_printer_img_printer2.c.obj
+[238/333] Linking C static library esp-idf/lvgl_esp32_drivers/liblvgl_esp32_drivers.a
+[239/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_demo_printer/images/lv_demo_printer_img_wave.c.obj
+[240/333] Linking C static library esp-idf/lvgl_touch/liblvgl_touch.a
+[241/333] Linking C static library esp-idf/lvgl_tft/liblvgl_tft.a
+[242/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_demo_printer/images/lv_demo_printer_img_ready.c.obj
+[243/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_demo_printer/images/lv_demo_printer_img_scan.c.obj
+[244/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_demo_printer/images/lv_demo_printer_img_setup.c.obj
+[245/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_demo_printer/lv_demo_printer_theme.c.obj
+[246/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_ex_get_started/lv_ex_get_started_3.c.obj
+[247/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_demo_printer/lv_demo_printer.c.obj
+[248/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_demo_printer/images/lv_demo_printer_img_usb.c.obj
+[249/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_ex_style/lv_ex_style_7.c.obj
+[250/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_ex_style/lv_ex_style_6.c.obj
+[251/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_ex_get_started/lv_ex_get_started_1.c.obj
+[252/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_ex_get_started/lv_ex_get_started_2.c.obj
+[253/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_ex_style/lv_ex_style_10.c.obj
+[254/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_ex_style/lv_ex_style_11.c.obj
+[255/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_ex_style/lv_ex_style_1.c.obj
+[256/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_demo_stress/lv_demo_stress.c.obj
+/home/dongkhoa/Documents/Project_1/GateWay/components/lv_examples/lv_examples/src/lv_demo_stress/lv_demo_stress.c: In function 'obj_test_task_cb':
+/home/dongkhoa/Documents/Project_1/GateWay/components/lv_examples/lv_examples/src/lv_demo_stress/lv_demo_stress.c:77:30: warning: unused variable 'diff' [-Wunused-variable]
+   77 |             volatile int32_t diff = mem_free_start - mon.free_size;
+      |                              ^~~~
+/home/dongkhoa/Documents/Project_1/GateWay/components/lv_examples/lv_examples/src/lv_demo_stress/lv_demo_stress.c:245:37: warning: cast between incompatible function types from 'void (*)(lv_obj_t *, uint16_t)' {aka 'void (*)(struct _lv_obj_t *, short unsigned int)'} to 'void (*)(void *, lv_anim_value_t)' {aka 'void (*)(void *, short int)'} [-Wcast-function-type]
+  245 |             lv_anim_set_exec_cb(&a, (lv_anim_exec_xcb_t)lv_arc_set_end_angle);
+      |                                     ^
+/home/dongkhoa/Documents/Project_1/GateWay/components/lv_examples/lv_examples/src/lv_demo_stress/lv_demo_stress.c:255:37: warning: cast between incompatible function types from 'void (*)(lv_obj_t *, uint16_t)' {aka 'void (*)(struct _lv_obj_t *, short unsigned int)'} to 'void (*)(void *, lv_anim_value_t)' {aka 'void (*)(void *, short int)'} [-Wcast-function-type]
+  255 |             lv_anim_set_exec_cb(&a, (lv_anim_exec_xcb_t)lv_linemeter_set_angle_offset);
+      |                                     ^
+[257/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_demo_printer/images/lv_demo_printer_img_scan_example.c.obj
+[258/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_ex_style/lv_ex_style_3.c.obj
+[259/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_demo_widgets/lv_demo_widgets.c.obj
+[260/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_ex_style/lv_ex_style_2.c.obj
+[261/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_ex_widgets/lv_ex_arc/lv_ex_arc_1.c.obj
+[262/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_ex_style/lv_ex_style_4.c.obj
+[263/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_ex_style/lv_ex_style_5.c.obj
+[264/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_ex_style/lv_ex_style_8.c.obj
+[265/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_ex_style/lv_ex_style_9.c.obj
+[266/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_ex_widgets/lv_ex_arc/lv_ex_arc_2.c.obj
+[267/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_ex_widgets/lv_ex_bar/lv_ex_bar_1.c.obj
+[268/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_ex_widgets/lv_ex_btnmatrix/lv_ex_btnmatrix_1.c.obj
+[269/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_ex_widgets/lv_ex_btn/lv_ex_btn_2.c.obj
+[270/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_ex_widgets/lv_ex_btn/lv_ex_btn_1.c.obj
+[271/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_ex_widgets/lv_ex_calendar/lv_ex_calendar_1.c.obj
+[272/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_ex_widgets/lv_ex_canvas/lv_ex_canvas_2.c.obj
+[273/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_ex_widgets/lv_ex_canvas/lv_ex_canvas_1.c.obj
+[274/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_ex_widgets/lv_ex_cpicker/lv_ex_cpicker_2.c.obj
+[275/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_ex_widgets/lv_ex_chart/lv_ex_chart_1.c.obj
+[276/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_ex_widgets/lv_ex_cpicker/lv_ex_cpicker_1.c.obj
+[277/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_ex_widgets/lv_ex_cont/lv_ex_cont_1.c.obj
+[278/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_ex_widgets/lv_ex_chart/lv_ex_chart_2.c.obj
+[279/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_ex_widgets/lv_ex_dropdown/lv_ex_dropdown_2.c.obj
+[280/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_ex_widgets/lv_ex_img/lv_ex_img_1.c.obj
+[281/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_ex_widgets/lv_ex_checkbox/lv_ex_checkbox_1.c.obj
+[282/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_ex_widgets/lv_ex_dropdown/lv_ex_dropdown_1.c.obj
+[283/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_ex_widgets/lv_ex_gauge/lv_ex_gauge_1.c.obj
+[284/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_ex_widgets/lv_ex_img/lv_ex_img_2.c.obj
+[285/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_ex_widgets/lv_ex_img/lv_ex_img_3.c.obj
+/home/dongkhoa/Documents/Project_1/GateWay/components/lv_examples/lv_examples/src/lv_ex_widgets/lv_ex_img/lv_ex_img_3.c: In function 'lv_ex_img_3':
+/home/dongkhoa/Documents/Project_1/GateWay/components/lv_examples/lv_examples/src/lv_ex_widgets/lv_ex_img/lv_ex_img_3.c:23:29: warning: cast between incompatible function types from 'void (*)(lv_obj_t *, uint16_t)' {aka 'void (*)(struct _lv_obj_t *, short unsigned int)'} to 'void (*)(void *, lv_anim_value_t)' {aka 'void (*)(void *, short int)'} [-Wcast-function-type]
+   23 |     lv_anim_set_exec_cb(&a, (lv_anim_exec_xcb_t)lv_img_set_zoom);
+      |                             ^
+[286/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_ex_widgets/lv_ex_imgbtn/lv_ex_imgbtn_1.c.obj
+[287/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_ex_widgets/lv_ex_label/lv_ex_label_1.c.obj
+[288/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_ex_widgets/lv_ex_keyboard/lv_ex_keyboard_1.c.obj
+[289/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_ex_widgets/lv_ex_label/lv_ex_label_3.c.obj
+[290/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_ex_widgets/lv_ex_imgbtn/imgbtn_green.c.obj
+[291/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_ex_widgets/lv_ex_imgbtn/imgbtn_blue.c.obj
+[292/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_ex_widgets/lv_ex_led/lv_ex_led_1.c.obj
+[293/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_ex_widgets/lv_ex_label/lv_ex_label_2.c.obj
+[294/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_ex_widgets/lv_ex_line/lv_ex_line_1.c.obj
+[295/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_ex_widgets/lv_ex_msgbox/lv_ex_msgbox_1.c.obj
+[296/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_ex_widgets/lv_ex_linemeter/lv_ex_linemeter_1.c.obj
+[297/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_ex_widgets/lv_ex_list/lv_ex_list_1.c.obj
+[298/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_ex_widgets/lv_ex_obj/lv_ex_obj_1.c.obj
+[299/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_ex_widgets/lv_ex_msgbox/lv_ex_msgbox_2.c.obj
+[300/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_ex_widgets/lv_ex_page/lv_ex_page_1.c.obj
+[301/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_ex_widgets/lv_ex_objmask/lv_ex_objmask_1.c.obj
+[302/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_ex_widgets/lv_ex_roller/lv_ex_roller_1.c.obj
+[303/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_ex_widgets/lv_ex_objmask/lv_ex_objmask_2.c.obj
+[304/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_ex_widgets/lv_ex_slider/lv_ex_slider_1.c.obj
+[305/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_ex_widgets/lv_ex_slider/lv_ex_slider_2.c.obj
+[306/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_ex_widgets/lv_ex_spinner/lv_ex_spinner_1.c.obj
+[307/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_ex_widgets/lv_ex_table/lv_ex_table_1.c.obj
+[308/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_ex_widgets/lv_ex_tileview/lv_ex_tileview_1.c.obj
+[309/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_ex_widgets/lv_ex_switch/lv_ex_switch_1.c.obj
+[310/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_ex_widgets/lv_ex_spinbox/lv_ex_spinbox_1.c.obj
+[311/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_ex_widgets/lv_ex_tabview/lv_ex_tabview_1.c.obj
+[312/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_ex_widgets/lv_ex_templ.c.obj
+[313/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_ex_widgets/lv_ex_textarea/lv_ex_textarea_2.c.obj
+[314/333] Building C object esp-idf/GPIO/CMakeFiles/__idf_GPIO.dir/gpio.c.obj
+[315/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_ex_widgets/lv_ex_textarea/lv_ex_textarea_1.c.obj
+[316/333] Linking C static library esp-idf/GPIO/libGPIO.a
+[317/333] Building C object esp-idf/lv_examples/CMakeFiles/__idf_lv_examples.dir/lv_examples/src/lv_ex_widgets/lv_ex_win/lv_ex_win_1.c.obj
+[318/333] Building C object esp-idf/NVS/CMakeFiles/__idf_NVS.dir/nvs_rw.c.obj
+[319/333] Building C object esp-idf/DHT/CMakeFiles/__idf_DHT.dir/dht.c.obj
+[320/333] Linking C static library esp-idf/NVS/libNVS.a
+[321/333] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+[322/333] Linking C static library esp-idf/DHT/libDHT.a
+[323/333] Building C object esp-idf/MQTT/CMakeFiles/__idf_MQTT.dir/mqtt_client_tcp.c.obj
+[324/333] Linking C static library esp-idf/MQTT/libMQTT.a
+[325/333] Linking C static library esp-idf/lv_examples/liblv_examples.a
+[326/333] Linking C static library esp-idf/main/libmain.a
+[327/333] Building C object esp-idf/WIFI/CMakeFiles/__idf_WIFI.dir/wifi.c.obj
+[328/333] Linking C static library esp-idf/WIFI/libWIFI.a
+[329/333] Generating ld/sections.ld
+[330/333] Building C object CMakeFiles/GateWay.elf.dir/project_elf_src_esp32.c.obj
+[331/333] Linking CXX executable GateWay.elf
+[332/333] Generating binary image from built executable
+esptool.py v4.7.dev1
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated /home/dongkhoa/Documents/Project_1/GateWay/build/GateWay.bin
+[333/333] cd /home/dongkhoa/Documents/Project_1/GateWay/build/esp-idf/esptool_py && /home/dongkhoa/esp/python_env/idf5.1_py3.10_env/bin/python /home/dongkhoa/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/dongkhoa/Documents/Project_1/GateWay/build/partition_table/partition-table.bin /home/dongkhoa/Documents/Project_1/GateWay/build/GateWay.bin
+GateWay.bin binary size 0x63690 bytes. Smallest app partition is 0x100000 bytes. 0x9c970 bytes (61%) free.
