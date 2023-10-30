@@ -20,6 +20,8 @@
 #include "lvgl_helpers.h"
 
 #include "lv_examples/src/lv_demo_widgets/lv_demo_widgets.h"
+#include "lv_examples/src/lv_ex_get_started/lv_ex_get_started.h"
+//#include "lv_examples/src/lv_demo_keypad_encoder/lv_demo_keypad_encoder.h"
 
 // #define DHT11_PIN   GPIO_NUM_5
 
@@ -70,15 +72,12 @@
  *  STATIC PROTOTYPES
  **********************/
 static void lv_tick_task(void *arg);
-void guiTask(void *pvParameter);				// GUI任务
+void guiTask(void *pvParameter);
 
 
-// 主函数
 void app_main() {
 	printf("\r\nAPP %s is start!~\r\n", TAG);
 	vTaskDelay(1000 / portTICK_PERIOD_MS);
-	// 如果要使用任务创建图形，则需要创建固定核心任务,否则可能会出现诸如内存损坏等问题
-	// 创建一个固定到其中一个核心的FreeRTOS任务，选择核心1
 	xTaskCreatePinnedToCore(guiTask, "gui", 4096*2, NULL, 0, NULL, 1);
 }
 
@@ -90,14 +89,14 @@ static void lv_tick_task(void *arg) {
 //Creates a semaphore to handle concurrent call to lvgl stuff
 //If you wish to call *any* lvgl function from other threads/tasks
 //you should lock on the very same semaphore!
-SemaphoreHandle_t xGuiSemaphore;		// 创建一个GUI信号量
+SemaphoreHandle_t xGuiSemaphore;
 
 void guiTask(void *pvParameter) {
     
     (void) pvParameter;
-    xGuiSemaphore = xSemaphoreCreateMutex();    // 创建GUI信号量
-    lv_init();          // 初始化LittlevGL
-    lvgl_driver_init(); // 初始化液晶SPI驱动 触摸芯片SPI/IIC驱动
+    xGuiSemaphore = xSemaphoreCreateMutex();
+    lv_init();
+    lvgl_driver_init(); 
 
     static lv_color_t buf1[DISP_BUF_SIZE];
 #ifndef CONFIG_LVGL_TFT_DISPLAY_MONOCHROME
@@ -121,7 +120,6 @@ void guiTask(void *pvParameter) {
     lv_disp_drv_init(&disp_drv);
     disp_drv.flush_cb = disp_driver_flush;
 
-// 如果配置为 单色模式
 #ifdef CONFIG_LVGL_TFT_DISPLAY_MONOCHROME
     disp_drv.rounder_cb = disp_driver_rounder;
     disp_drv.set_px_cb = disp_driver_set_px;
@@ -131,7 +129,6 @@ void guiTask(void *pvParameter) {
     lv_disp_drv_register(&disp_drv);
 
 
-// 如果有配置触摸芯片，配置触摸
 #if CONFIG_LVGL_TOUCH_CONTROLLER != TOUCH_CONTROLLER_NONE
     lv_indev_drv_t indev_drv;
     lv_indev_drv_init(&indev_drv);
@@ -148,15 +145,15 @@ void guiTask(void *pvParameter) {
     esp_timer_handle_t periodic_timer;
     ESP_ERROR_CHECK(esp_timer_create(&periodic_timer_args, &periodic_timer));
     ESP_ERROR_CHECK(esp_timer_start_periodic(periodic_timer, LV_TICK_PERIOD_MS * 1000));
-	lv_demo_widgets();
-	
-    while (1) {
+	// lv_demo_widgets();
+	// lv_ex_get_started_3();
+    while (1) 
+    {
 		vTaskDelay(1);
-		// 尝试锁定信号量，如果成功，请调用lvgl的东西
 		if (xSemaphoreTake(xGuiSemaphore, (TickType_t)10) == pdTRUE) {
             lv_task_handler();
-            xSemaphoreGive(xGuiSemaphore);  // 释放信号量
+            xSemaphoreGive(xGuiSemaphore);
         }
     }
-    vTaskDelete(NULL);      // 删除任务
+    vTaskDelete(NULL);
 }

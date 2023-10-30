@@ -27102,7 +27102,10 @@
                                 "help": "Configure the touchpanel MISO pin here.",
                                 "id": "LVGL_TOUCH_SPI_MISO",
                                 "name": "LVGL_TOUCH_SPI_MISO",
-                                "range": null,
+                                "range": [
+                                    0,
+                                    39
+                                ],
                                 "title": "GPIO for MISO (Master In Slave Out)",
                                 "type": "int"
                             },
@@ -27112,7 +27115,10 @@
                                 "help": "Configure the touchpanel MOSI pin here.",
                                 "id": "LVGL_TOUCH_SPI_MOSI",
                                 "name": "LVGL_TOUCH_SPI_MOSI",
-                                "range": null,
+                                "range": [
+                                    0,
+                                    39
+                                ],
                                 "title": "GPIO for MOSI (Master Out Slave In)",
                                 "type": "int"
                             },
@@ -27122,7 +27128,10 @@
                                 "help": "Configure the touchpanel CLK pin here.",
                                 "id": "LVGL_TOUCH_SPI_CLK",
                                 "name": "LVGL_TOUCH_SPI_CLK",
-                                "range": null,
+                                "range": [
+                                    0,
+                                    39
+                                ],
                                 "title": "GPIO for CLK (SCK / Serial Clock)",
                                 "type": "int"
                             },
@@ -27132,7 +27141,10 @@
                                 "help": "Configure the touchpanel CS pin here.",
                                 "id": "LVGL_TOUCH_SPI_CS",
                                 "name": "LVGL_TOUCH_SPI_CS",
-                                "range": null,
+                                "range": [
+                                    0,
+                                    39
+                                ],
                                 "title": "GPIO for CS (Slave Select)",
                                 "type": "int"
                             },
@@ -27142,7 +27154,10 @@
                                 "help": "Configure the touchpanel CS pin here.",
                                 "id": "LVGL_TOUCH_PIN_IRQ",
                                 "name": "LVGL_TOUCH_PIN_IRQ",
-                                "range": null,
+                                "range": [
+                                    0,
+                                    39
+                                ],
                                 "title": "GPIO for IRQ (Interrupt Request)",
                                 "type": "int"
                             }
@@ -27304,7 +27319,10 @@
                                 "help": "Configure the touchpanel MISO pin here.",
                                 "id": "LVGL_TOUCH_SPI_MISO",
                                 "name": "LVGL_TOUCH_SPI_MISO",
-                                "range": null,
+                                "range": [
+                                    0,
+                                    39
+                                ],
                                 "title": "GPIO for MISO (Master In Slave Out)",
                                 "type": "int"
                             },
@@ -27314,7 +27332,10 @@
                                 "help": "Configure the touchpanel MOSI pin here.",
                                 "id": "LVGL_TOUCH_SPI_MOSI",
                                 "name": "LVGL_TOUCH_SPI_MOSI",
-                                "range": null,
+                                "range": [
+                                    0,
+                                    39
+                                ],
                                 "title": "GPIO for MOSI (Master Out Slave In)",
                                 "type": "int"
                             },
@@ -27324,7 +27345,10 @@
                                 "help": "Configure the touchpanel CLK pin here.",
                                 "id": "LVGL_TOUCH_SPI_CLK",
                                 "name": "LVGL_TOUCH_SPI_CLK",
-                                "range": null,
+                                "range": [
+                                    0,
+                                    39
+                                ],
                                 "title": "GPIO for CLK (SCK / Serial Clock)",
                                 "type": "int"
                             },
@@ -27334,7 +27358,10 @@
                                 "help": "Configure the touchpanel CS pin here.",
                                 "id": "LVGL_TOUCH_SPI_CS",
                                 "name": "LVGL_TOUCH_SPI_CS",
-                                "range": null,
+                                "range": [
+                                    0,
+                                    39
+                                ],
                                 "title": "GPIO for CS (Slave Select)",
                                 "type": "int"
                             }
