@@ -1,0 +1,190 @@
+Added Component: Designator=(Female Header 20x2)
+Added Component: Designator=U1(SO16)
+Add component (AddParameter): Name = "Availability"; Value = "In Stock"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/74HC595N/Texas+Instruments/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "74HC595N"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SOT38-4-16 Nexperia"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Purchase-URL"; Value = "https://pricing.snapeda.com/search/part/74HC595N/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/74HC595N/Texas+Instruments/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=U2(SO16)
+Add component (AddParameter): Name = "Availability"; Value = "In Stock"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/74HC595N/Texas+Instruments/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "74HC595N"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SOT38-4-16 Nexperia"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Purchase-URL"; Value = "https://pricing.snapeda.com/search/part/74HC595N/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/74HC595N/Texas+Instruments/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=U3(SO16)
+Add component (AddParameter): Name = "Availability"; Value = "In Stock"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/74HC595N/Texas+Instruments/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "74HC595N"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SOT38-4-16 Nexperia"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Purchase-URL"; Value = "https://pricing.snapeda.com/search/part/74HC595N/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/74HC595N/Texas+Instruments/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=U(MODULE_ESP32-DEVKITC)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Espressif Systems"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "ESP32-DEVKITC-32D-F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/ESP32-DEVKITC-32D-F/Espressif%20Systems/view-part/4220172/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+5 Pin=-2
+Added Pin To Net: NetName=+5 Pin=-2
+Added Pin To Net: NetName=+5 Pin=U-15
+Added Pin To Net: NetName=+5 Pin=U1-10
+Added Pin To Net: NetName=+5 Pin=U1-16
+Added Pin To Net: NetName=+5 Pin=U2-10
+Added Pin To Net: NetName=+5 Pin=U2-16
+Added Pin To Net: NetName=+5 Pin=U3-10
+Added Pin To Net: NetName=+5 Pin=U3-16
+Added Net: Name=+5
+Added Pin To Net: NetName=GND Pin=-1
+Added Pin To Net: NetName=GND Pin=-40
+Added Pin To Net: NetName=GND Pin=U-14
+Added Pin To Net: NetName=GND Pin=U1-8
+Added Pin To Net: NetName=GND Pin=U1-13
+Added Pin To Net: NetName=GND Pin=U2-8
+Added Pin To Net: NetName=GND Pin=U2-13
+Added Pin To Net: NetName=GND Pin=U3-8
+Added Pin To Net: NetName=GND Pin=U3-13
+Added Net: Name=GND
+Added Pin To Net: NetName=LATCH Pin=U-25
+Added Pin To Net: NetName=LATCH Pin=U1-12
+Added Pin To Net: NetName=LATCH Pin=U2-12
+Added Pin To Net: NetName=LATCH Pin=U3-12
+Added Net: Name=LATCH
+Added Pin To Net: NetName=LCD_BL Pin=-39
+Added Pin To Net: NetName=LCD_BL Pin=U-18
+Added Net: Name=LCD_BL
+Added Pin To Net: NetName=LCD_BUSY Pin=-37
+Added Pin To Net: NetName=LCD_BUSY Pin=U-19
+Added Net: Name=LCD_BUSY
+Added Pin To Net: NetName=LCD_CLK/SCL Pin=-34
+Added Pin To Net: NetName=LCD_CLK/SCL Pin=U-29
+Added Net: Name=LCD_CLK/SCL
+Added Pin To Net: NetName=LCD_CS Pin=-3
+Added Pin To Net: NetName=LCD_CS Pin=U-11
+Added Net: Name=LCD_CS
+Added Pin To Net: NetName=LCD_DC Pin=-4
+Added Pin To Net: NetName=LCD_DC Pin=U-9
+Added Net: Name=LCD_DC
+Added Pin To Net: NetName=LCD_DIN/SDA Pin=-35
+Added Pin To Net: NetName=LCD_DIN/SDA Pin=U-26
+Added Net: Name=LCD_DIN/SDA
+Added Pin To Net: NetName=LCD_DOUT Pin=-36
+Added Pin To Net: NetName=LCD_DOUT Pin=U-22
+Added Net: Name=LCD_DOUT
+Added Pin To Net: NetName=LCD_PEN Pin=-38
+Added Pin To Net: NetName=LCD_PEN Pin=U-21
+Added Net: Name=LCD_PEN
+Added Pin To Net: NetName=LCD_RD Pin=-5
+Added Pin To Net: NetName=LCD_RD Pin=U-12
+Added Net: Name=LCD_RD
+Added Pin To Net: NetName=LCD_RESET Pin=-7
+Added Pin To Net: NetName=LCD_RESET Pin=U-13
+Added Net: Name=LCD_RESET
+Added Pin To Net: NetName=LCD_RPTCS Pin=-33
+Added Pin To Net: NetName=LCD_RPTCS Pin=U-20
+Added Net: Name=LCD_RPTCS
+Added Pin To Net: NetName=LCD_TE Pin=-8
+Added Pin To Net: NetName=LCD_TE Pin=U-7
+Added Net: Name=LCD_TE
+Added Pin To Net: NetName=LCD_WR Pin=-6
+Added Pin To Net: NetName=LCD_WR Pin=U-8
+Added Net: Name=LCD_WR
+Added Pin To Net: NetName=Net_9 Pin=-9
+Added Pin To Net: NetName=Net_9 Pin=U1-15
+Added Net: Name=Net_9
+Added Pin To Net: NetName=Net_10 Pin=-10
+Added Pin To Net: NetName=Net_10 Pin=U1-1
+Added Net: Name=Net_10
+Added Pin To Net: NetName=Net_11 Pin=-11
+Added Pin To Net: NetName=Net_11 Pin=U1-2
+Added Net: Name=Net_11
+Added Pin To Net: NetName=Net_12 Pin=-12
+Added Pin To Net: NetName=Net_12 Pin=U1-3
+Added Net: Name=Net_12
+Added Pin To Net: NetName=Net_13 Pin=-13
+Added Pin To Net: NetName=Net_13 Pin=U1-4
+Added Net: Name=Net_13
+Added Pin To Net: NetName=Net_14 Pin=-14
+Added Pin To Net: NetName=Net_14 Pin=U1-5
+Added Net: Name=Net_14
+Added Pin To Net: NetName=Net_15 Pin=-15
+Added Pin To Net: NetName=Net_15 Pin=U1-6
+Added Net: Name=Net_15
+Added Pin To Net: NetName=Net_16 Pin=-16
+Added Pin To Net: NetName=Net_16 Pin=U1-7
+Added Net: Name=Net_16
+Added Pin To Net: NetName=Net_17 Pin=-17
+Added Pin To Net: NetName=Net_17 Pin=U2-15
+Added Net: Name=Net_17
+Added Pin To Net: NetName=Net_18 Pin=-18
+Added Pin To Net: NetName=Net_18 Pin=U2-1
+Added Net: Name=Net_18
+Added Pin To Net: NetName=Net_19 Pin=-19
+Added Pin To Net: NetName=Net_19 Pin=U2-2
+Added Net: Name=Net_19
+Added Pin To Net: NetName=Net_20 Pin=-20
+Added Pin To Net: NetName=Net_20 Pin=U2-3
+Added Net: Name=Net_20
+Added Pin To Net: NetName=Net_21 Pin=-21
+Added Pin To Net: NetName=Net_21 Pin=U2-4
+Added Net: Name=Net_21
+Added Pin To Net: NetName=Net_22 Pin=-22
+Added Pin To Net: NetName=Net_22 Pin=U2-5
+Added Net: Name=Net_22
+Added Pin To Net: NetName=Net_23 Pin=-23
+Added Pin To Net: NetName=Net_23 Pin=U2-6
+Added Net: Name=Net_23
+Added Pin To Net: NetName=Net_24 Pin=-24
+Added Pin To Net: NetName=Net_24 Pin=U2-7
+Added Net: Name=Net_24
+Added Pin To Net: NetName=Net_25 Pin=-25
+Added Pin To Net: NetName=Net_25 Pin=U3-15
+Added Net: Name=Net_25
+Added Pin To Net: NetName=Net_26 Pin=-26
+Added Pin To Net: NetName=Net_26 Pin=U3-1
+Added Net: Name=Net_26
+Added Pin To Net: NetName=Net_27 Pin=-27
+Added Pin To Net: NetName=Net_27 Pin=U3-2
+Added Net: Name=Net_27
+Added Pin To Net: NetName=Net_28 Pin=-28
+Added Pin To Net: NetName=Net_28 Pin=U3-3
+Added Net: Name=Net_28
+Added Pin To Net: NetName=Net_29 Pin=-29
+Added Pin To Net: NetName=Net_29 Pin=U3-4
+Added Net: Name=Net_29
+Added Pin To Net: NetName=Net_30 Pin=-30
+Added Pin To Net: NetName=Net_30 Pin=U3-5
+Added Net: Name=Net_30
+Added Pin To Net: NetName=Net_31 Pin=-31
+Added Pin To Net: NetName=Net_31 Pin=U3-6
+Added Net: Name=Net_31
+Added Pin To Net: NetName=Net_32 Pin=-32
+Added Pin To Net: NetName=Net_32 Pin=U3-7
+Added Net: Name=Net_32
+Added Pin To Net: NetName=NetU1_9 Pin=U1-9
+Added Pin To Net: NetName=NetU1_9 Pin=U2-14
+Added Net: Name=NetU1_9
+Added Pin To Net: NetName=NetU2_9 Pin=U2-9
+Added Pin To Net: NetName=NetU2_9 Pin=U3-14
+Added Net: Name=NetU2_9
+Added Pin To Net: NetName=SPI_MOSI Pin=U-30
+Added Pin To Net: NetName=SPI_MOSI Pin=U1-14
+Added Net: Name=SPI_MOSI
+Added Pin To Net: NetName=SPI_SCLK Pin=U-24
+Added Pin To Net: NetName=SPI_SCLK Pin=U1-11
+Added Pin To Net: NetName=SPI_SCLK Pin=U2-11
+Added Pin To Net: NetName=SPI_SCLK Pin=U3-11
+Added Net: Name=SPI_SCLK
+Added Class: Name=Test Board

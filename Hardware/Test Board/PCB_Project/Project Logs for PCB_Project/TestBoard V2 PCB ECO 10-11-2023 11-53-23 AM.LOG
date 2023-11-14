@@ -1,0 +1,5 @@
+Added Member To Class: ClassName=Test Board Member=Component  TFT
+Added Member To Class: ClassName=Test Board Member=Component U1 LOGIC-74HC595N(DIP16)
+Added Member To Class: ClassName=Test Board Member=Component U2 LOGIC-74HC595N(DIP16)
+Added Member To Class: ClassName=Test Board Member=Component U3 LOGIC-74HC595N(DIP16)
+Added Member To Class: ClassName=Test Board Member=Component U ESP32-DEVKITC

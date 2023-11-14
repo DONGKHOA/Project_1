@@ -1,0 +1,27 @@
+Added Component: Designator=U1(SO16)
+Add component (AddParameter): Name = "Availability"; Value = "In Stock"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/74HC595N/Texas+Instruments/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "74HC595N"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SOT38-4-16 Nexperia"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Purchase-URL"; Value = "https://pricing.snapeda.com/search/part/74HC595N/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/74HC595N/Texas+Instruments/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=Net_10 Pin=U1-1
+Added Pin To Net: NetName=Net_11 Pin=U1-2
+Added Pin To Net: NetName=Net_12 Pin=U1-3
+Added Pin To Net: NetName=Net_13 Pin=U1-4
+Added Pin To Net: NetName=Net_14 Pin=U1-5
+Added Pin To Net: NetName=Net_15 Pin=U1-6
+Added Pin To Net: NetName=Net_16 Pin=U1-7
+Added Pin To Net: NetName=GND Pin=U1-8
+Added Pin To Net: NetName=NetU1_9 Pin=U1-9
+Added Pin To Net: NetName=+5 Pin=U1-10
+Added Pin To Net: NetName=SPI_SCLK Pin=U1-11
+Added Pin To Net: NetName=LATCH Pin=U1-12
+Added Pin To Net: NetName=GND Pin=U1-13
+Added Pin To Net: NetName=SPI_MOSI Pin=U1-14
+Added Pin To Net: NetName=Net_9 Pin=U1-15
+Added Pin To Net: NetName=+5 Pin=U1-16
+Added Room: Name=Test Board

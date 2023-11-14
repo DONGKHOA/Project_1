@@ -1,0 +1,30 @@
+Added Component: Designator=U3(SO16)
+Add component (AddParameter): Name = "Availability"; Value = "In Stock"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/74HC595N/Texas+Instruments/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "74HC595N"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SOT38-4-16 Nexperia"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Purchase-URL"; Value = "https://pricing.snapeda.com/search/part/74HC595N/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/74HC595N/Texas+Instruments/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=Net_26 Pin=U3-1
+Added Pin To Net: NetName=Net_27 Pin=U3-2
+Added Pin To Net: NetName=Net_28 Pin=U3-3
+Added Pin To Net: NetName=Net_29 Pin=U3-4
+Added Pin To Net: NetName=Net_30 Pin=U3-5
+Added Pin To Net: NetName=Net_31 Pin=U3-6
+Added Pin To Net: NetName=Net_32 Pin=U3-7
+Added Pin To Net: NetName=GND Pin=U3-8
+Added Pin To Net: NetName=+5 Pin=U3-10
+Added Pin To Net: NetName=SPI_SCLK Pin=U3-11
+Added Pin To Net: NetName=LATCH Pin=U3-12
+Added Pin To Net: NetName=GND Pin=U3-13
+Added Pin To Net: NetName=NetU2_9 Pin=U3-14
+Added Pin To Net: NetName=Net_25 Pin=U3-15
+Added Pin To Net: NetName=+5 Pin=U3-16
+Added Member To Class: ClassName=Test Board Member=Component  TFT
+Added Member To Class: ClassName=Test Board Member=Component U1 LOGIC-74HC595N(DIP16)
+Added Member To Class: ClassName=Test Board Member=Component U2 LOGIC-74HC595N(DIP16)
+Added Member To Class: ClassName=Test Board Member=Component U3 LOGIC-74HC595N(DIP16)
+Added Member To Class: ClassName=Test Board Member=Component U ESP32-DEVKITC

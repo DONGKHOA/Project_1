@@ -1,0 +1,22 @@
+Removed Pin From Net: NetName=GND Pin=P1-1
+Removed Pin From Net: NetName=+5 Pin=P1-2
+Removed Pin From Net: NetName=LCD_TE Pin=U-11
+Removed Pin From Net: NetName=LCD_RESET Pin=U-12
+Removed Pin From Net: NetName=LCD_RD Pin=U-18
+Removed Pin From Net: NetName=LCD_DC Pin=U-19
+Removed Pin From Net: NetName=LCD_CS Pin=U-20
+Removed Member From Class: ClassName=Test Board Member=P1
+Added Component: Designator=H1(LO KHOAN 3MM)
+Added Component: Designator=H2(LO KHOAN 3MM)
+Added Component: Designator=H3(LO KHOAN 3MM)
+Added Component: Designator=H4(LO KHOAN 3MM)
+Added Pin To Net: NetName=+5 Pin=U-15
+Added Pin To Net: NetName=LCD_RESET Pin=U-19
+Added Pin To Net: NetName=LCD_TE Pin=U-20
+Added Pin To Net: NetName=LCD_RD Pin=U-21
+Added Pin To Net: NetName=LCD_CS Pin=U-22
+Added Pin To Net: NetName=LCD_DC Pin=U-23
+Added Member To Class: ClassName=Test Board Member=Component H1 Hole
+Added Member To Class: ClassName=Test Board Member=Component H2 Hole
+Added Member To Class: ClassName=Test Board Member=Component H3 Hole
+Added Member To Class: ClassName=Test Board Member=Component H4 Hole
