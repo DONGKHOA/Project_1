@@ -20,8 +20,6 @@
 #include "lvgl_helpers.h"
 
 #include "lv_examples/src/lv_demo_widgets/lv_demo_widgets.h"
-#include "lv_examples/src/lv_ex_get_started/lv_ex_get_started.h"
-//#include "lv_examples/src/lv_demo_keypad_encoder/lv_demo_keypad_encoder.h"
 
 // #define DHT11_PIN   GPIO_NUM_5
 
@@ -99,31 +97,14 @@ void guiTask(void *pvParameter) {
     lvgl_driver_init(); 
 
     static lv_color_t buf1[DISP_BUF_SIZE];
-#ifndef CONFIG_LVGL_TFT_DISPLAY_MONOCHROME
     static lv_color_t buf2[DISP_BUF_SIZE];
-#endif
     static lv_disp_buf_t disp_buf;
-
     uint32_t size_in_px = DISP_BUF_SIZE;
-
-#if defined CONFIG_LVGL_TFT_DISPLAY_CONTROLLER_IL3820 
-    /* Actual size in pixel, not bytes and use single buffer */
-    size_in_px *= 8;
-    lv_disp_buf_init(&disp_buf, buf1, NULL, size_in_px);
-#elif defined CONFIG_LVGL_TFT_DISPLAY_MONOCHROME
-    lv_disp_buf_init(&disp_buf, buf1, NULL, size_in_px);
-#else
     lv_disp_buf_init(&disp_buf, buf1, buf2, size_in_px);
-#endif
 
     lv_disp_drv_t disp_drv;
     lv_disp_drv_init(&disp_drv);
     disp_drv.flush_cb = disp_driver_flush;
-
-#ifdef CONFIG_LVGL_TFT_DISPLAY_MONOCHROME
-    disp_drv.rounder_cb = disp_driver_rounder;
-    disp_drv.set_px_cb = disp_driver_set_px;
-#endif
 
     disp_drv.buffer = &disp_buf;
     lv_disp_drv_register(&disp_drv);
@@ -146,7 +127,13 @@ void guiTask(void *pvParameter) {
     ESP_ERROR_CHECK(esp_timer_create(&periodic_timer_args, &periodic_timer));
     ESP_ERROR_CHECK(esp_timer_start_periodic(periodic_timer, LV_TICK_PERIOD_MS * 1000));
 	// lv_demo_widgets();
-	// lv_ex_get_started_3();
+    lv_area_t a = {
+        .x1 = 10,
+        .x2 = 10,
+        .y1 = 10,
+        .y2 = 10,
+    };
+    lv_demo_widgets();
     while (1) 
     {
 		vTaskDelay(1);

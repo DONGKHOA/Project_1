@@ -1,7 +1,7 @@
 {
     "version":            "1",
     "project_name":       "GateWay",
-    "project_version":    "d4dd046-dirty",
+    "project_version":    "a45da22-dirty",
     "project_path":       "/home/dongkhoa/Documents/Project_1/GateWay",
     "idf_path":           "/home/dongkhoa/esp/esp-idf",
     "build_dir":          "/home/dongkhoa/Documents/Project_1/GateWay/build",
@@ -895,7 +895,7 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/dongkhoa/Documents/Project_1/GateWay/build/esp-idf/lvgl_tft/liblvgl_tft.a",
-            "sources": [ "/home/dongkhoa/Documents/Project_1/GateWay/components/lvgl_esp32_drivers/lvgl_tft/disp_driver.c", "/home/dongkhoa/Documents/Project_1/GateWay/components/lvgl_esp32_drivers/lvgl_tft/ili9341.c", "/home/dongkhoa/Documents/Project_1/GateWay/components/lvgl_esp32_drivers/lvgl_tft/disp_spi.c" ],
+            "sources": [ "/home/dongkhoa/Documents/Project_1/GateWay/components/lvgl_esp32_drivers/lvgl_tft/disp_driver.c", "/home/dongkhoa/Documents/Project_1/GateWay/components/lvgl_esp32_drivers/lvgl_tft/ssd1963.c", "/home/dongkhoa/Documents/Project_1/GateWay/components/lvgl_esp32_drivers/lvgl_tft/disp_spi.c" ],
             "include_dirs": [ "." ]
         },
         "lvgl_touch": {
@@ -910,7 +910,7 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/dongkhoa/Documents/Project_1/GateWay/build/esp-idf/lvgl_touch/liblvgl_touch.a",
-            "sources": [ "/home/dongkhoa/Documents/Project_1/GateWay/components/lvgl_esp32_drivers/lvgl_touch/touch_driver.c", "/home/dongkhoa/Documents/Project_1/GateWay/components/lvgl_esp32_drivers/lvgl_touch/xpt2046.c", "/home/dongkhoa/Documents/Project_1/GateWay/components/lvgl_esp32_drivers/lvgl_touch/tp_spi.c" ],
+            "sources": [ "/home/dongkhoa/Documents/Project_1/GateWay/components/lvgl_esp32_drivers/lvgl_touch/touch_driver.c" ],
             "include_dirs": [ "." ]
         },
         "lwip": {

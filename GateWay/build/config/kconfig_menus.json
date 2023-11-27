@@ -27102,10 +27102,7 @@
                                 "help": "Configure the touchpanel MISO pin here.",
                                 "id": "LVGL_TOUCH_SPI_MISO",
                                 "name": "LVGL_TOUCH_SPI_MISO",
-                                "range": [
-                                    0,
-                                    39
-                                ],
+                                "range": null,
                                 "title": "GPIO for MISO (Master In Slave Out)",
                                 "type": "int"
                             },
@@ -27115,10 +27112,7 @@
                                 "help": "Configure the touchpanel MOSI pin here.",
                                 "id": "LVGL_TOUCH_SPI_MOSI",
                                 "name": "LVGL_TOUCH_SPI_MOSI",
-                                "range": [
-                                    0,
-                                    39
-                                ],
+                                "range": null,
                                 "title": "GPIO for MOSI (Master Out Slave In)",
                                 "type": "int"
                             },
@@ -27128,10 +27122,7 @@
                                 "help": "Configure the touchpanel CLK pin here.",
                                 "id": "LVGL_TOUCH_SPI_CLK",
                                 "name": "LVGL_TOUCH_SPI_CLK",
-                                "range": [
-                                    0,
-                                    39
-                                ],
+                                "range": null,
                                 "title": "GPIO for CLK (SCK / Serial Clock)",
                                 "type": "int"
                             },
@@ -27141,10 +27132,7 @@
                                 "help": "Configure the touchpanel CS pin here.",
                                 "id": "LVGL_TOUCH_SPI_CS",
                                 "name": "LVGL_TOUCH_SPI_CS",
-                                "range": [
-                                    0,
-                                    39
-                                ],
+                                "range": null,
                                 "title": "GPIO for CS (Slave Select)",
                                 "type": "int"
                             },
@@ -27154,10 +27142,7 @@
                                 "help": "Configure the touchpanel CS pin here.",
                                 "id": "LVGL_TOUCH_PIN_IRQ",
                                 "name": "LVGL_TOUCH_PIN_IRQ",
-                                "range": [
-                                    0,
-                                    39
-                                ],
+                                "range": null,
                                 "title": "GPIO for IRQ (Interrupt Request)",
                                 "type": "int"
                             }
@@ -27319,10 +27304,7 @@
                                 "help": "Configure the touchpanel MISO pin here.",
                                 "id": "LVGL_TOUCH_SPI_MISO",
                                 "name": "LVGL_TOUCH_SPI_MISO",
-                                "range": [
-                                    0,
-                                    39
-                                ],
+                                "range": null,
                                 "title": "GPIO for MISO (Master In Slave Out)",
                                 "type": "int"
                             },
@@ -27332,10 +27314,7 @@
                                 "help": "Configure the touchpanel MOSI pin here.",
                                 "id": "LVGL_TOUCH_SPI_MOSI",
                                 "name": "LVGL_TOUCH_SPI_MOSI",
-                                "range": [
-                                    0,
-                                    39
-                                ],
+                                "range": null,
                                 "title": "GPIO for MOSI (Master Out Slave In)",
                                 "type": "int"
                             },
@@ -27345,10 +27324,7 @@
                                 "help": "Configure the touchpanel CLK pin here.",
                                 "id": "LVGL_TOUCH_SPI_CLK",
                                 "name": "LVGL_TOUCH_SPI_CLK",
-                                "range": [
-                                    0,
-                                    39
-                                ],
+                                "range": null,
                                 "title": "GPIO for CLK (SCK / Serial Clock)",
                                 "type": "int"
                             },
@@ -27358,10 +27334,7 @@
                                 "help": "Configure the touchpanel CS pin here.",
                                 "id": "LVGL_TOUCH_SPI_CS",
                                 "name": "LVGL_TOUCH_SPI_CS",
-                                "range": [
-                                    0,
-                                    39
-                                ],
+                                "range": null,
                                 "title": "GPIO for CS (Slave Select)",
                                 "type": "int"
                             }
@@ -27854,6 +27827,16 @@
                     {
                         "children": [],
                         "depends_on": null,
+                        "help": "SSD1963 display controller.",
+                        "id": "LVGL_TFT_DISPLAY_CONTROLLER_SSD1963",
+                        "name": "LVGL_TFT_DISPLAY_CONTROLLER_SSD1963",
+                        "range": null,
+                        "title": null,
+                        "type": "bool"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": null,
                         "help": "ILI9481 display controller.",
                         "id": "LVGL_TFT_DISPLAY_CONTROLLER_ILI9481",
                         "name": "LVGL_TFT_DISPLAY_CONTROLLER_ILI9481",
@@ -28097,6 +28080,16 @@
                                 "children": [],
                                 "depends_on": "<choice>",
                                 "help": null,
+                                "id": "LVGL_TFT_DISPLAY_USER_CONTROLLER_SSD1963",
+                                "name": "LVGL_TFT_DISPLAY_USER_CONTROLLER_SSD1963",
+                                "range": null,
+                                "title": "ssd1963",
+                                "type": "bool"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "<choice>",
+                                "help": null,
                                 "id": "LVGL_TFT_DISPLAY_USER_CONTROLLER_ILI9481",
                                 "name": "LVGL_TFT_DISPLAY_USER_CONTROLLER_ILI9481",
                                 "range": null,
@@ -28314,7 +28307,7 @@
                                 "type": "bool"
                             }
                         ],
-                        "depends_on": "LVGL_TFT_DISPLAY_CONTROLLER_ILI9341 || LVGL_TFT_DISPLAY_CONTROLLER_ILI9481 || LVGL_TFT_DISPLAY_CONTROLLER_ILI9486 || LVGL_TFT_DISPLAY_CONTROLLER_ILI9488 || LVGL_TFT_DISPLAY_CONTROLLER_SH1107 || LVGL_TFT_DISPLAY_CONTROLLER_SSD1306 || LVGL_TFT_DISPLAY_CONTROLLER_FT81X || LVGL_TFT_DISPLAY_CONTROLLER_ST7789 || LVGL_TFT_DISPLAY_CONTROLLER_ST7735S || LVGL_TFT_DISPLAY_CONTROLLER_IL3820 || LVGL_TFT_DISPLAY_CONTROLLER_RA8875",
+                        "depends_on": "LVGL_TFT_DISPLAY_CONTROLLER_ILI9341 || LVGL_TFT_DISPLAY_CONTROLLER_SSD1963 || LVGL_TFT_DISPLAY_CONTROLLER_ILI9481 || LVGL_TFT_DISPLAY_CONTROLLER_ILI9486 || LVGL_TFT_DISPLAY_CONTROLLER_ILI9488 || LVGL_TFT_DISPLAY_CONTROLLER_SH1107 || LVGL_TFT_DISPLAY_CONTROLLER_SSD1306 || LVGL_TFT_DISPLAY_CONTROLLER_FT81X || LVGL_TFT_DISPLAY_CONTROLLER_ST7789 || LVGL_TFT_DISPLAY_CONTROLLER_ST7735S || LVGL_TFT_DISPLAY_CONTROLLER_IL3820 || LVGL_TFT_DISPLAY_CONTROLLER_RA8875",
                         "help": "Display orientation.",
                         "id": "component-config-lvgl-tft-display-controller-display-orientation",
                         "name": null,
