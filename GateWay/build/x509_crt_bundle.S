@@ -1,4 +1,4 @@
-/* * Data converted from /home/dongkhoa/Documents/Project_1/GateWay/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from /home/dongkhoa/Documents/ssd1963/Project_1/GateWay/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 .section .rodata.embedded

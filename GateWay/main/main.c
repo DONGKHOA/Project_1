@@ -12,6 +12,7 @@
 #include "driver/gpio.h"
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
+#include "freertos/semphr.h"
 #include "esp_freertos_hooks.h"
 #include "freertos/semphr.h"
 #include "freertos/event_groups.h"
@@ -20,6 +21,7 @@
 #include "lvgl_helpers.h"
 
 #include "lv_examples/src/lv_demo_widgets/lv_demo_widgets.h"
+#include "ssd1963.h"
 
 // #define DHT11_PIN   GPIO_NUM_5
 
@@ -75,8 +77,10 @@ void guiTask(void *pvParameter);
 
 void app_main() {
 	printf("\r\nAPP %s is start!~\r\n", TAG);
+
 	vTaskDelay(1000 / portTICK_PERIOD_MS);
-	xTaskCreatePinnedToCore(guiTask, "gui", 4096*2, NULL, 0, NULL, 1);
+	xTaskCreatePinnedToCore(guiTask, "gui", 4096*1, NULL, 0, NULL, 1);
+    
 }
 
 static void lv_tick_task(void *arg) {
@@ -110,30 +114,26 @@ void guiTask(void *pvParameter) {
     lv_disp_drv_register(&disp_drv);
 
 
-#if CONFIG_LVGL_TOUCH_CONTROLLER != TOUCH_CONTROLLER_NONE
-    lv_indev_drv_t indev_drv;
-    lv_indev_drv_init(&indev_drv);
-    indev_drv.read_cb = touch_driver_read;
-    indev_drv.type = LV_INDEV_TYPE_POINTER;
-    lv_indev_drv_register(&indev_drv);
-#endif
+// #if CONFIG_LVGL_TOUCH_CONTROLLER != TOUCH_CONTROLLER_NONE
+//     lv_indev_drv_t indev_drv;
+//     lv_indev_drv_init(&indev_drv);
+//     indev_drv.read_cb = touch_driver_read;
+//     indev_drv.type = LV_INDEV_TYPE_POINTER;
+//     lv_indev_drv_register(&indev_drv);
+// #endif
 
 
-    const esp_timer_create_args_t periodic_timer_args = {
-        .callback = &lv_tick_task,
-        .name = "periodic_gui"
-    };
-    esp_timer_handle_t periodic_timer;
-    ESP_ERROR_CHECK(esp_timer_create(&periodic_timer_args, &periodic_timer));
-    ESP_ERROR_CHECK(esp_timer_start_periodic(periodic_timer, LV_TICK_PERIOD_MS * 1000));
+    // const esp_timer_create_args_t periodic_timer_args = {
+    //     .callback = &lv_tick_task,
+    //     .name = "periodic_gui"
+    // };
+    // esp_timer_handle_t periodic_timer;
+    // ESP_ERROR_CHECK(esp_timer_create(&periodic_timer_args, &periodic_timer));
+    // ESP_ERROR_CHECK(esp_timer_start_periodic(periodic_timer, LV_TICK_PERIOD_MS * 1000));
 	// lv_demo_widgets();
-    lv_area_t a = {
-        .x1 = 10,
-        .x2 = 10,
-        .y1 = 10,
-        .y2 = 10,
-    };
-    lv_demo_widgets();
+    ILI9341_FillScreen(0);
+    printf("test\n");
+    // lv_demo_widgets();
     while (1) 
     {
 		vTaskDelay(1);
